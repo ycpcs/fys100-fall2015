@@ -3,7 +3,7 @@ layout: default
 title: "Home page"
 ---
 
-# FYS 100.139: Computing in the Arts, Humanities, Science, and Society
+# FYS 100.139: Computing in the Arts, Humanities, Sciences, and Society
 
 Welcome to the FYS 100.139 home page!  All of the information about the course will be posted here.
 
