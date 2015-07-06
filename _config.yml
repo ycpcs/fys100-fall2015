@@ -1,0 +1,7 @@
+baseurl: "http://ycpcs.github.io/fys100-fall2015"
+markdown: rdiscount
+highlighter: pygments
+coursename: "FYS 100.139"
+
+rdiscount:
+  extensions: [smart]
