@@ -36,7 +36,10 @@ Coming soon.
 Learning Outcomes
 -----------------
 
-Coming soon.
+In this course, you will learn to
+
+* Develop an ability to use computer programs as an expressive medium in the domains of visual art and music
+* Develop an ability to think and respond critically about creative works
 
 Policies
 --------
