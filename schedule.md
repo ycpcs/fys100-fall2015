@@ -11,34 +11,68 @@ It is very important to do the readings *before class*.  Doing so will help you 
 
 In the readings, *LP* is the textbook (Learning Processing).
 
-Date | Topic/Activity | Readings
----- | -------------- | --------
-Sep 1  | Course intro, what is computing? | 
-Sep 6 | Visual art: Abstraction and representation, computer images
-Sep 8 | Visual art: Elements and repetition
-Sep 15 | Visual art: Generative art
-Sep 17 | Visual art: Discussion
-Sep 22 | Music: What is sound, what is music?
-Sep 24 | Music: Rhythm patterns
-Sep 29 | Music: Melody, basic music theory
-Oct 1 | Music: Composition
-Oct 6 | Music: Discussion
-Oct 8 | Humanities: Digital humanities
-Oct 13 | Humanities: Analyzing text and language
-Oct 15 | Humanities: 
+Date | Topic | Activity | Readings
+---- | ----- | -------- | --------
+&mdash; | Expectations for college | Discussion |
+&mdash; | Expectations for the seminar | Discussion |
+&mdash; | Visual art: Computer images | Lab 1: Art with Processing
+&mdash; | Visual art: Elements and repetition | Lab 2: Sketch, Plan, Program |
+&mdash; | Visual art: Generative art | Lab 3: Fractals | 
+&mdash; | Visual art: Animation | Lab 4: Make it move!
+&mdash; | Visual art: Project day | Individual project work
+&mdash; | Visual art: Discussion day | Class discussion
+&mdash; | Visual art: Presentations | Individual presentations
+&mdash; | Music: What is sound? What is music? | Lab 5: Weird sounds
+&mdash; | Music: Rhythm patterns | Lab 6: Beatbox
+&mdash; | Music: Melody, basic music theory | Lab 7: Lay down a groove
+&mdash; | Music: Composition | Lab 8: Putting it together
+&mdash; | Music: Random music? | Lab 9: Computer variations
+&mdash; | Music: Project day | Individual project work
+&mdash; | Music: Discussion day | Class discussion
+&mdash; | Music: Presentations | Individual presentations
+&mdash; | Humanities: Digital humanities
+&mdash; | Humanities: Analyzing text and language | Lab 10: Word mining
+&mdash; | Humanities: Real and virtual spaces | Lab 11: Find the places
+&mdash; | Humanities: Project day | Individual project work
+&mdash; | Humanities: Discussion day | Class discussions
+&mdash; | Humanities: Presentations | Individual presentations
+&mdash; | Science: Modeling and simulation | Lab 12: Outbreak
+&mdash; | Science: Measuring the physical world | Lab 13: Light sensor
+&mdash; | Science: Project day | Individual project work
+&mdash; | Science: Discussion day | Class discussion
+&mdash; | Science: Presentations | Individual presentations
+&mdash; | Society: TBD
+&mdash; | Society: TBD
+&mdash; | Society: TBD
+
+<!--
+Sep 1  |
+Sep 6 |
+Sep 8 |
+Sep 15 |
+Sep 17 |
+Sep 22 |
+Sep 24 |
+Sep 29 |
+Oct 1 |
+Oct 6 |
+Oct 8 |
+Oct 13 |
+Oct 15 |
 Oct 20 | *No class* &mdash; fall break
-Oct 22 | Humanities: Discussion
-Oct 27 | Science: Modeling and simulation
-Oct 29 | Science: Measuring the physical world
-Nov 3 | Science:
-Nov 5 | Science: 
-Nov 10 | Science: Discussion
-Nov 12 | Society
-Nov 17 | Society
-Nov 19 | Society
-Nov 24 | Society
+Oct 22 |
+Oct 27 |
+Oct 29 |
+Nov 3 |
+Nov 5 |
+Nov 10 |
+Nov 12 |
+Nov 17 |
+Nov 19 |
+Nov 24 |
 Nov 26 | *No class* &mdash; Thanksgiving break
-Dec 1 | Project work
-Dec 3 | Project work
-Dec 8 | Project work
-Dec 10 | Project work
+Dec 1 |
+Dec 3 |
+Dec 8 |
+Dec 10 |
+-->
