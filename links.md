@@ -14,3 +14,7 @@ title: "Links"
 [Hammersound](http://www.hammersound.net/) &mdash; An excellent archive of free sound fonts
 
 [Links to sound fonts](http://www.synthfont.com/links_to_soundfonts.html) &mdash; Links to sites hosting free sound fonts
+
+# Digital Humanities
+
+[Introducing Digital Humanities Work to Undergraduates: An Overview](http://www.hybridpedagogy.com/journal/introducing-digital-humanities-work-undergraduates-overview/)
