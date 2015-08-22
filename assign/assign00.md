@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "Assignment 0: Google Drive Folder"
+title: "Writing Assignment 0: Google Drive Folder"
 ---
 
 **Due**: Thursday, Sep 4th 
 
 # Learning goals
 
-The motivation for this assignment is mainly practical: you will set up a Google Drive folder to use for the work you will do in the course.  It will also give you some experience using Google Drive and Google Docs if you haven't used them before.
+The motivation for this assignment is mainly practical: you will set up a Google Drive folder to use for the work you will do in the course, and create your journal document.  It will also give you some experience using Google Drive and Google Docs if you haven't used them before.
 
 # What to do
 
@@ -19,7 +19,7 @@ Log into [MyYCP](https://my.ycp.edu).  Click on the **Drive** icon.  It looks li
 
 Click on the **NEW** button (on the left hand side of the page), and choose **Folder**.
 
-Enter FYS-*Your full name* as the name of the folder (substituting your name as appropriate.)  You should see a new folder appear.
+Enter "FYS-*Your full name*" as the name of the folder (substituting your name as appropriate.)  You should see a new folder appear.
 
 Double-click on the folder.  Click on the sharing icon at the top of the page, which looks like this:
 
@@ -29,16 +29,12 @@ You should now see the **Share with others** dialog.  In the text box, enter **d
 
 By sharing the folder with me, I will be able to see your work, and also comment on it by adding my own edits.
 
-## Step 2: Create a document
+## Step 2: Create your journal
 
 Next, click the **NEW** button, and choose **Google Docs**.  A dialog titled "Create in shared folder" will appear.  Click **OK**.  You should now see a new empty document.
 
-Click on the document title in the upper left-hand corner of the browser (it will be *Untitled document* initially.)  Change the title to **Hello, FYS!**.
+Click on the document title in the upper left-hand corner of the browser (it will be *Untitled document* initially.)  Change the title to "FYS Journal-*Your name*".  This document will be your journal for the ongoing [Journal](assign01.html) writing assignment.
 
-Finally, edit the document to add three paragraphs with the following information:
+Finally, add a first journal entry.  It should look something like this:
 
-* First paragraph: Tell me something about yourself. Where are you from? What are some of your interests?
-* Second paragraph: What are you goals for this semester?
-* Third paragraph: What are your goals for your overall college experience?
-
-These don't need to be long paragraphs: a few sentences is fine.
+> **September 1st, 2015**: I created a shared Google Drive folder for my FYS work, and started my journal.

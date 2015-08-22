@@ -47,6 +47,8 @@ In this course, you will learn to
 * Understand the expectations for scholarship at the college level
 * Understand York College's general education curriculum
 * (Something about becoming part of the campus community, awareness of and participation in events, etc.)
+* (Something about developing effective study habits)
+* (Something about reflecting on the process of developing knowledge)
 
 Policies
 --------
@@ -67,7 +69,9 @@ Grades are assigned on a 100-point scale:
 
 Your overall grade for the course will be determined as follows:
 
--  Coming soon.
+* Writing Assignments: 50%
+* Unit Projects: 40%
+* Attendance and participation: 10%
 
 ### Course website
 

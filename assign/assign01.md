@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Assignment 1: Journal"
+title: "Writing Assignment 1: Journal"
 ---
 
 This assignment is ongoing throughout the semester.
