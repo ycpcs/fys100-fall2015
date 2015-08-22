@@ -39,8 +39,14 @@ Learning Outcomes
 
 In this course, you will learn to
 
-* Develop an ability to use computer programs as an expressive medium in the domains of visual art and music
-* Develop an ability to think and respond critically about creative works
+* Use computer programs as an expressive medium in the domains of visual art and music
+* Think and respond critically to arguments presented in written texts
+* Think and respond critically about creative works
+* (Something about searching for sources)
+* (Something about evaluating sources for reliability)
+* Understand the expectations for scholarship at the college level
+* Understand York College's general education curriculum
+* (Something about becoming part of the campus community, awareness of and participation in events, etc.)
 
 Policies
 --------

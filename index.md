@@ -13,6 +13,7 @@ Welcome to the FYS 100.139 home page!  All of the information about the course w
 
 * [Syllabus](syllabus.html)
 * [Schedule](schedule.html)
+* [Assignments](assign/index.html)
 
 ## News
 
