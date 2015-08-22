@@ -3,7 +3,7 @@ layout: default
 title: "Home page"
 ---
 
-# FYS 100.139
+# FYS 100.139, Fall 2015
 
 <div id="subtitle">Computing in the Arts, Humanities, Sciences, and Society</div>
 
