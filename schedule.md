@@ -15,11 +15,11 @@ Date | Topic | Activity | Readings
 ---- | ----- | -------- | --------
 &mdash; | Expectations for college | Discussion |
 &mdash; | Expectations for the seminar | Discussion |
-&mdash; | Visual art: Computer images | Lab 1: Art with Processing
+&mdash; | Visual art: Computer images | Lab 1: Art with Processing |
 &mdash; | Visual art: Elements and repetition | Lab 2: Sketch, Plan, Program |
 &mdash; | Visual art: Generative art | Lab 3: Fractals | 
 &mdash; | Visual art: Animation | Lab 4: Make it move!
-&mdash; | Visual art: Discussion day | Class discussion
+&mdash; | Visual art: Discussion day | Class discussion | Noll, [The digital computer as a creative medium](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5217127&queryText=the+digital+computer+as+a+creative+medium&newsearch=true&searchField=Search_All), IEEE Spectrum, Volume 4, Issue 10, Oct 1967
 &mdash; | Visual art: Presentations | Individual presentations
 &mdash; | Music: What is sound? What is music? | Lab 5: Weird sounds
 &mdash; | Music: Rhythm patterns | Lab 6: Beatbox
@@ -34,12 +34,10 @@ Date | Topic | Activity | Readings
 &mdash; | Humanities: Discussion day | Class discussions
 &mdash; | Humanities: Presentations | Individual presentations
 &mdash; | The YCP General Education Curriculum
-&mdash; | The YCP General Education Curriculum
 &mdash; | Science: Modeling and simulation | Lab 12: Outbreak
 &mdash; | Science: Measuring the physical world | Lab 13: Light sensor
 &mdash; | Science: Discussion day | Class discussion
 &mdash; | Science: Presentations | Individual presentations
-&mdash; | Society: TBD
 &mdash; | Society: TBD
 &mdash; | Society: TBD
 
