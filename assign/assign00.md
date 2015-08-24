@@ -31,7 +31,7 @@ By sharing the folder with me, I will be able to see your work, and also comment
 
 ## Step 2: Create your journal
 
-Next, click the **NEW** button, and choose **Google Docs**.  A dialog titled "Create in shared folder" will appear.  Click **OK**.  You should now see a new empty document.
+Next, click the **NEW** button, and choose **Google Docs**.  A dialog titled "Create in shared folder" will appear.  Click **OK**: this will allow me to see the document and also edit it (so that I can add comments to it).  You should now see a new empty document.
 
 Click on the document title in the upper left-hand corner of the browser (it will be *Untitled document* initially.)  Change the title to "FYS Journal-*Your name*".  This document will be your journal for the ongoing [Journal](assign01.html) writing assignment.
 
