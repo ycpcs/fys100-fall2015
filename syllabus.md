@@ -42,13 +42,15 @@ In this course, you will learn to
 * Use computer programs as an expressive medium in the domains of visual art and music
 * Think and respond critically to arguments presented in written texts
 * Think and respond critically about creative works
-* (Something about searching for sources)
-* (Something about evaluating sources for reliability)
+* Use written language and oral communication to share ideas
+* Use careful proofreading and consideration of feedback to improve written compositions
+* Search for information, using online and library sources
+* Evaluate information sources for trustworthiness
 * Understand the expectations for scholarship at the college level
 * Understand York College's general education curriculum
-* (Something about becoming part of the campus community, awareness of and participation in events, etc.)
-* (Something about developing effective study habits)
-* (Something about reflecting on the process of developing knowledge)
+* Participate in events at York College and the wider community
+* Develop consistent and effective study habits
+* Reflect on your process of acquiring knowledge and devloping skills
 
 Policies
 --------
