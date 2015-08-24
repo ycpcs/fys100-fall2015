@@ -5,7 +5,7 @@ title: "Schedule"
 
 *Preliminary schedule, likely to change drastically*
 
-This page lists the schedule topics and readings for the course.
+This page lists the schedule topics and readings for the course.  It is possible that the schedule will change: any changes will be announced in class and on the course website.
 
 It is very important to do the readings *before class*.  Doing so will help you to be prepared for in-class activities, and will prepare you to contribute to in-class discussions.
 
@@ -19,7 +19,6 @@ Date | Topic | Activity | Readings
 &mdash; | Visual art: Elements and repetition | Lab 2: Sketch, Plan, Program |
 &mdash; | Visual art: Generative art | Lab 3: Fractals | 
 &mdash; | Visual art: Animation | Lab 4: Make it move!
-&mdash; | Visual art: Project day | Individual project work
 &mdash; | Visual art: Discussion day | Class discussion
 &mdash; | Visual art: Presentations | Individual presentations
 &mdash; | Music: What is sound? What is music? | Lab 5: Weird sounds
@@ -27,18 +26,17 @@ Date | Topic | Activity | Readings
 &mdash; | Music: Melody, basic music theory | Lab 7: Lay down a groove
 &mdash; | Music: Composition | Lab 8: Putting it together
 &mdash; | Music: Random music? | Lab 9: Computer variations
-&mdash; | Music: Project day | Individual project work
 &mdash; | Music: Discussion day | Class discussion
 &mdash; | Music: Presentations | Individual presentations
 &mdash; | Humanities: Digital humanities
 &mdash; | Humanities: Analyzing text and language | Lab 10: Word mining
 &mdash; | Humanities: Real and virtual spaces | Lab 11: Find the places
-&mdash; | Humanities: Project day | Individual project work
 &mdash; | Humanities: Discussion day | Class discussions
 &mdash; | Humanities: Presentations | Individual presentations
+&mdash; | The YCP General Education Curriculum
+&mdash; | The YCP General Education Curriculum
 &mdash; | Science: Modeling and simulation | Lab 12: Outbreak
 &mdash; | Science: Measuring the physical world | Lab 13: Light sensor
-&mdash; | Science: Project day | Individual project work
 &mdash; | Science: Discussion day | Class discussion
 &mdash; | Science: Presentations | Individual presentations
 &mdash; | Society: TBD
