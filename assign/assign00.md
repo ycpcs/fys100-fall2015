@@ -38,3 +38,5 @@ Click on the document title in the upper left-hand corner of the browser (it wil
 Finally, add a first journal entry.  It should look something like this:
 
 > **September 1st, 2015**: I created a shared Google Drive folder for my FYS work, and started my journal.
+
+Please feel free to add any additional thoughts you have about the course, what you hope to accomplish this semester, being in college, etc.
