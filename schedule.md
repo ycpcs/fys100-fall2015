@@ -3,43 +3,55 @@ layout: default
 title: "Schedule"
 ---
 
-*Preliminary schedule, likely to change drastically*
+*Preliminary schedule*
 
-This page lists the schedule topics and readings for the course.  It is possible that the schedule will change: any changes will be announced in class and on the course website.
+This page lists the schedule topics and readings for the course.  This schedule will be updated throughout the semester: any changes will be announced in class and on the course website.
 
-It is very important to do the readings *before class*.  Doing so will help you to be prepared for in-class activities, and will prepare you to contribute to in-class discussions.
+For class meetings where a reading is listed, make sure you have done the reading *before* you come to class.  Also note that there are suggestions regarding when to start some of the readings.
 
-In the readings, *LP* is the textbook (Learning Processing).
+The agendas for each day will include some notes about the day's topic and activity, and may also include discussion questions.  Please read each agenda before you come to class.
 
-Date | Topic | Activity | Readings
----- | ----- | -------- | --------
-&mdash; | Expectations for college | Discussion |
-&mdash; | Expectations for the seminar | Discussion |
-&mdash; | Visual art: Computer images | Lab 1: Art with Processing |
-&mdash; | Visual art: Elements and repetition | Lab 2: Sketch, Plan, Program |
-&mdash; | Visual art: Generative art | Lab 3: Fractals | 
-&mdash; | Visual art: Animation | Lab 4: Make it move!
-&mdash; | Visual art: Discussion day | Class discussion | Noll, [The digital computer as a creative medium](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5217127&queryText=the+digital+computer+as+a+creative+medium&newsearch=true&searchField=Search_All), IEEE Spectrum, Volume 4, Issue 10, Oct 1967
-&mdash; | Visual art: Presentations | Individual presentations
-&mdash; | Music: What is sound? What is music? | Lab 5: Weird sounds
-&mdash; | Music: Rhythm patterns | Lab 6: Beatbox
-&mdash; | Music: Melody, basic music theory | Lab 7: Lay down a groove
-&mdash; | Music: Composition | Lab 8: Putting it together
-&mdash; | Music: Random music? | Lab 9: Computer variations
-&mdash; | Music: Discussion day | Class discussion
-&mdash; | Music: Presentations | Individual presentations
-&mdash; | Humanities: Digital humanities
-&mdash; | Humanities: Analyzing text and language | Lab 10: Word mining
-&mdash; | Humanities: Real and virtual spaces | Lab 11: Find the places
-&mdash; | Humanities: Discussion day | Class discussions
-&mdash; | Humanities: Presentations | Individual presentations
-&mdash; | The YCP General Education Curriculum
-&mdash; | Science: Modeling and simulation | Lab 12: Outbreak
-&mdash; | Science: Measuring the physical world | Lab 13: Light sensor
-&mdash; | Science: Discussion day | Class discussion
-&mdash; | Science: Presentations | Individual presentations
-&mdash; | Society: TBD
-&mdash; | Society: TBD
+In the readings, *LP* is the textbook (Learning Processing).  For other readings, see list below.
+
+Date | Topic | Activity | Agenda | Reading
+---- | ----- | -------- | -------| -------
+Sep 1 | Expectations for college | Discussion | [Day 1](agenda/day01.html) | 
+Sep 3 | Expectations for college | Discussion | [Day 2](agenda/day02.html) | [NYTEd30Jul15](http://www.nytimes.com/2015/08/02/education/edlife/advice-for-new-students-from-those-who-know-old-students.html), [Lahey15](http://www.theatlantic.com/education/archive/2015/08/when-success-leads-to-failure/400925/)
+Sep 8 | Visual art: Computer images | [Lab 1](labs/lab01.html) | [Day 3](agenda/day03.html) | (Start [Noll67](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5217127))
+Sep 10 | Visual art: Elements and repetition | [Lab 2](labs/lab02.html) | [Day 4](agenda/day04.html) |
+Sep 15 | Visual art: Generative art | [Lab 3](labs/lab03.html) | [Day 5](agenda/day05.html) |
+Sep 17 | Visual art: Animation | [Lab 4](labs/lab04.html) | [Day 6](agenda/day06.html) | 
+Sep 22 | Visual art: Discussion day | Discussion | [Day 7](agenda/day07.html) | [Noll67](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5217127&queryText=the+digital+computer+as+a+creative+medium&newsearch=true&searchField=Search_All)
+Sep 24 | Visual art: Presentations | Presentations
+Sep 29 | Music: What is sound? What is music? | [Lab 5](labs/lab05.html)
+Oct 1 | Music: Rhythm patterns | [Lab 6](labs/lab06.html)
+Oct 6 | Music: Melody, basic music theory | [Lab 7](labs/lab07.html)
+Oct 8 | Music: Composition | [Lab 8](labs/lab08.html)
+Oct 13 | Music: Random music? | [Lab 9](labs/lab09.html)
+Oct 15 | Music: Discussion day | Discussion
+Oct 20 | Fall break, no class
+Oct 22 | Music: Presentations | Presentations
+Oct 27 | Humanities: Digital humanities
+Oct 29 | Humanities: Analyzing text and language | [Lab 10](labs/lab10.html)
+Nov 3 | Humanities: Real and virtual spaces | [Lab 11](labs/lab11.html)
+Nov 5 | Humanities: Discussion day | Discussion
+Nov 10 | Humanities: Presentations | Presentations
+Nov 12 | The YCP General Education Curriculum
+Nov 17 | Science: Modeling and simulation | [Lab 12](labs/lab12.html)
+Nov 19 | Science: Measuring the physical world | [Lab 13](labs/lab13.html)
+Nov 24 | Science: Discussion day | Discussion
+Nov 26 | Thanksgiving vacation, no class
+Dec 1 | Science: Presentations | Presentations
+Dec 3 | Society: TBD
+Dec 8 | Society: TBD
+Dec 10 | Society: TBD
+Dec 15 | Society: TBD
+
+Readings:
+
+* NYTEd30Jul15: [Advice for New Students From Those Who Know (Older Students)](http://www.nytimes.com/2015/08/02/education/edlife/advice-for-new-students-from-those-who-know-old-students.html), New York Times, July 30th, 2015
+* Lahey15: Jessica Lahey, [When Success Leads to Failure](http://www.theatlantic.com/education/archive/2015/08/when-success-leads-to-failure/400925/), The Atlantic, August 11th, 2015
+* Noll67: A. Michael Noll, [The digital computer as a creative medium](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5217127), IEEE Spectrum, Volume 4, Issue 10, Oct 1967 (Note that you will need to download this article from campus)
 
 <!--
 Sep 1  |
@@ -72,3 +84,7 @@ Dec 3 |
 Dec 8 |
 Dec 10 |
 -->
+
+<!-- vim:set wrap: ­-->
+<!-- vim:set linebreak: -->
+<!-- vim:set nolist: -->
