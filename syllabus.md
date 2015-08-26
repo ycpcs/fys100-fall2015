@@ -12,7 +12,7 @@ title: "Syllabus"
 
 Instructor | Email | Office hours (KEC 113)
 ---------- | ----- | ----------------------
-[David Hovemeyer](http://faculty.ycp.edu/~dhovemey) | [dhovemey@ycp.edu](mailto:dhovemey@ycp.edu) | TBA
+[David Hovemeyer](http://faculty.ycp.edu/~dhovemey) | [dhovemey@ycp.edu](mailto:dhovemey@ycp.edu) | M 1-3, T/Th 8:30-9:30, W/F 11-12
 
 Course Description
 ------------------
