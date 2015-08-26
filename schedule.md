@@ -9,7 +9,9 @@ This page lists the schedule topics and readings for the course.  This schedule 
 
 For class meetings where a reading is listed, make sure you have done the reading *before* you come to class.  Also note that there are suggestions regarding when to start some of the readings.
 
-The agendas for each day will include some notes about the day's topic and activity, and may also include discussion questions.  Please read each agenda before you come to class.  Keep in mind that the agenda may include things you need to prepare for the day's activity.
+The agendas for each day will include some notes about the day's topic and activity, and may also include discussion questions.  Please read each agenda before you come to class.  Keep in mind that the agenda may include things you need to do to prepare for the day's activity: these will be indicated with the following graphic:
+
+> ![Get ready!](agenda/img/getready.png)
 
 In the readings, *LP* is the textbook (Learning Processing).  For other readings, see list below.
 

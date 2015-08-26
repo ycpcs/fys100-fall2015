@@ -134,3 +134,12 @@ dt {
 	border-radius: 24px;
 	padding: 10px 40px;
 }
+
+.parimg {
+	float: left;
+	margin-right: 16px;
+}
+
+.clear {
+	clear: both;
+}
