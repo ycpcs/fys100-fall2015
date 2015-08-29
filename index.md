@@ -15,6 +15,7 @@ Welcome to the FYS 100.139 home page!  All of the information about the course w
 * [Schedule](schedule.html) &mdash; Schedule of topics, activities, and readings
 * [Writing Assignments](assign/index.html) &mdash; Journal, essays, and reflections
 * [Unit Projects](project/index.html) &mdash; Projects for each unit of the course
+* [Resources](resources.html) &mdash; Useful resources, including links to software we will be using
 
 ## News
 
