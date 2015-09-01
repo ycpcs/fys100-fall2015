@@ -8,8 +8,6 @@ title: "Syllabus"
 
 **Fall 2015**
 
-*Preliminary syllabus, not official yet*
-
 Instructor | Email | Office hours (KEC 113)
 ---------- | ----- | ----------------------
 [David Hovemeyer](http://faculty.ycp.edu/~dhovemey) | [dhovemey@ycp.edu](mailto:dhovemey@ycp.edu) | M 1-3, T/Th 8:30-9:30, W/F 11-12

@@ -3,8 +3,6 @@ layout: default
 title: "Schedule"
 ---
 
-*Preliminary schedule*
-
 This page lists the schedule topics and readings for the course.  This schedule will be updated throughout the semester: any changes will be announced in class and on the course website.
 
 For class meetings where a reading is listed, make sure you have done the reading *before* you come to class.  Also note that there are suggestions regarding when to start some of the readings.
