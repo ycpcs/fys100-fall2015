@@ -3,7 +3,7 @@ layout: default
 title: "Writing Assignment 0: Google Drive Folder"
 ---
 
-**Due**: Thursday, Sep 4th 
+**Due**: Friday, Sep 4th 
 
 # Learning goals
 

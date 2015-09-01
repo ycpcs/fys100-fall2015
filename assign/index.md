@@ -7,7 +7,7 @@ This page lists the writing assignments for the course.  Some of the assignments
 
 Assignment | Due | Grading
 ---------- | --- | -------
-[Writing Assignment 0: Google Drive Folder](assign00.html) | Thursday, Sep 4th by 11:59 PM | Check
+[Writing Assignment 0: Google Drive Folder](assign00.html) | Friday, Sep 4th by 11:59 PM | Check
 [Writing Assignment 1: Journal](assign01.html) | Ongoing | Weekly check
 
 Explanation of grading:
