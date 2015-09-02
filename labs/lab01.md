@@ -5,8 +5,8 @@ title: "Lab 1: Art with Processing"
 
 # Learning goals
 
-Coming soon.
+* Learn how to use Processing to create images
 
 # What to do
 
-Coming soon.
+Your task is to use Processing to create a picture.
