@@ -9,7 +9,7 @@ For class meetings where a reading is listed, make sure you have done the readin
 
 The agendas for each day will include some notes about the day's topic and activity, and may also include discussion questions.  Please read each agenda before you come to class.  Keep in mind that the agenda may include things you need to do to prepare for the day's activity: these will be indicated with the following graphic:
 
-> ![Get ready!](agenda/img/getready.png)
+> <a href="https://www.youtube.com/watch?v=J8Ofr0IKiZg"><img src="agenda/img/getready.png" alt="Get ready!"></a>
 
 In the readings, *LP* is the textbook (Learning Processing).  For other readings, see list below.
 
