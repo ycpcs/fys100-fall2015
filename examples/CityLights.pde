@@ -83,6 +83,7 @@ void drawBuildings() {
   stroke(buildingColor);
   rect(160,405,70,160);
   
+  // rows of windows on the second building
   for (int r = 0; r < 10; r++) {
     stroke(windowGlow);
     fill(windowGlow);
@@ -91,6 +92,4 @@ void drawBuildings() {
     rect(169+16*2, 412+r*15, 5, 8);
     rect(169+16*3, 412+r*15, 5, 8);
   }
-  
-  // rows of windows on the first building
 }
