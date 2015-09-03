@@ -13,6 +13,8 @@ On day 3 we will use Processing to create a visual image.  Before you come to cl
 
 <img class="parimg" alt="Get ready" src="img/getready.png">
 
-Using graph paper, draw a sketch of your image.  Your sketch should consist of simple geometric shapes, such as rectangles, ellipses, triangles, etc.  In [Lab 1](../labs/lab01.html), which we will work on in class, you will translate your sketch into Processing code.
+Using the graph paper provided in class, draw a sketch of your image.  Your sketch should consist of simple geometric shapes, such as rectangles, ellipses, triangles, etc.  In [Lab 1](../labs/lab01.html), which we will work on in class, you will translate your sketch into Processing code.
+
+If you need to print additional sheets, use this: [graphpaper.pdf](../media/graphpaper.pdf)
 
 <div class="clear"></div>
