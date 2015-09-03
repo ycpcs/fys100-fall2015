@@ -16,6 +16,9 @@ Welcome to the FYS 100.139 home page!  All of the information about the course w
 * [Writing Assignments](assign/index.html) &mdash; Journal, essays, and reflections
 * [Unit Projects](project/index.html) &mdash; Projects for each unit of the course
 * [Resources](resources.html) &mdash; Useful resources, including links to software we will be using
+* [First Year Experience Page on Facebook](https://www.facebook.com/ycpfye)
+* [First Year Experience Events (pdf)](media/YCP First-Year Experience Events Fall 2015.pdf)
+* [Additional Campus Events (pdf)](media/Additional Campus Events of Interest to FYS Students Fall 2015.pdf)
 
 ## News
 
