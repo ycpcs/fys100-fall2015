@@ -97,7 +97,7 @@ fill\(c) &mdash; set the fill color to *c* (this is the color that fills the ins
 
 rect(x,y,w,h) &mdash; draw a rectangle whose upper-left corner is at *x*,*y* and whose width and height are *w* and *h*
 
-ellipse(x,y,w,h) &mdash; draw an ellipse whose center is *x*,*y* and whose width and height are *w* and *h*
+ellipse(x,y,w,h) &mdash; draw an ellipse whose center is *x*,*y* and whose width and height are *w* and *h* (note that if *w* and *h* are equal, you get a circle)
 
 line(x1,y2,x2,y2) &mdash; draw a line from *x1*,*y1* to *x2*,*y2*
 
