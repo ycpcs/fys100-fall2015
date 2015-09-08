@@ -27,7 +27,7 @@ Here is the Processing program that generated the image:
 
 > [CityLights.pde](https://github.com/ycpcs/fys100-fall2015/blob/gh-pages/examples/CityLights.pde)
 
-Feel free to use this program as a guide.
+Feel free to use this program as a guide.  Note that this program uses a few advanced techniques, such as loops, methods, and color interpolation.  You do not need to use any of these features in your program.  However, when learning about programming, it is often helpful to use example programs as a source of inspiration and techniques to try out.
 
 ## Getting started
 
