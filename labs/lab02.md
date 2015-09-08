@@ -22,7 +22,7 @@ It's not really much of a city, since there are only two buildings!
 
 Our goal will be to modify the program to generate more buildings, where each building is an exact copy of one of the two original buildings:
 
-> Awesome image goes here
+> <a href="img/citylights-morebuildings.png"><img style="width: 200px; height: 150px;" src="img/citylights-morebuildings.png"></a>
 
 ### One approach: copy and paste
 
