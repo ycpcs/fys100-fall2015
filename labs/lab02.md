@@ -215,3 +215,5 @@ This produces the following image (click for full size):
 > <a href="img/citylights-morebuildings.png"><img style="width: 200px; height: 150px;" src="img/citylights-morebuildings.png"></a>
 
 That looks more like a city!
+
+Here is the complete program: [CityLights2.pde](https://github.com/ycpcs/fys100-fall2015/blob/gh-pages/examples/CityLights2.pde)
