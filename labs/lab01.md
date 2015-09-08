@@ -63,7 +63,7 @@ Here is a quick explanation of the program.
 
 The `setup` method executes when the program starts.  In the code above, `setup` sets the window size to 800x600, and sets the background color to 200, which is a light gray.
 
-The `draw` function is called automatically by Processing in order to display an image in the program's window.  In the above program, there are calls to `stroke` and `strokeWeight` to set the line drawing color (black) and thickness, `fill` to set a fill color (white initially, then black), `ellipse` to draw circles and ellipses, and `arc` to draw an arc (part of a circle).
+The `draw` function is called automatically by Processing in order to display an image in the program's window.  In the above program, there are calls to `stroke` and `strokeWeight` to set the line drawing color (black) and thickness, `fill` to set a fill color (white initially, then black), `ellipse` to draw circles and ellipses, and `arc` to draw an arc (part of an ellipse).
 
 ## Colors
 
