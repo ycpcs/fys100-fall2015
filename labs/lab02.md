@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Lab 2: Sketch, Plan, Program"
+title: "Lab 2: Elements and Repetition"
 ---
 
 # Learning goals
 
 * Use *procedural abstraction* to avoid repeated code when drawing similar or identical elements
-* Use loops to avoid repeated code when the same drawing operation is being executed with coordinates that vary in a predictable way
+* Use loops to avoid repeated code when the same drawing operation is being executed with coordinates and/or dimensions that vary in a predictable way
 
 # What to do
 
@@ -146,7 +146,7 @@ void drawBuildingOne(int x, int y) { // <-- x and y are parameters!
 }
 {% endhighlight %}
 
-A method is a "generic" chunk of code that can be *called* from anywhere in the program.  The parameters to the method (in this case `x` and `y`) are variables whose values can be specified arbitrarily for each call: in other words, one call to the method might specify `x` as 60 and `y` as 420, while another might specify `x` as 260 and `y` as 400.
+A method is a "generic" chunk of code that can be *called* from anywhere in the program.  The parameters to the method (in this case `x` and `y`) are variables whose values can be specified arbitrarily for each call: in other words, one call to the method might specify `x` as 60 and `y` as 420, while another might specify `x` as 260 and `y` as 420.
 
 In fact, let's do precisely that, by modifying the `drawBuildings` method to call the `drawBuildingOne` method:
 
