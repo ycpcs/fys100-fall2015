@@ -13,7 +13,9 @@ Specifically, we will use *procedural abstraction* to avoid repeated code when d
 
 <img class="parimg" alt="Get ready" src="img/getready.png">
 
-Think about
+First, continue working on your program from [Lab 1](labs/lab01.html), so that you have a relatively complete rendering of your graph paper sketch.
+
+Next, think about
 
 * Whether there are elements in your image that are repeated exactly or with some kind of variation
 * Whether you could add some kind of repeated element to your image
