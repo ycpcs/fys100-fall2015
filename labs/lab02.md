@@ -120,7 +120,7 @@ for (int r = 0; r < 8; r++) {
 }
 {% endhighlight %}
 
-This code accomplishes exactly the same thing as the original code.  The only difference is that rather than "hard-coding" the x coordinate of each rectangle, we introduced a variables called `x` and `y`, which represent the x coordinate of the left edge of the building and the y coordinate of the top edge of the building.  The code sets these variables to 60 and 420, respectively, which leads to drawing the building in precisely the same place as the original version of the code.  However, there is no reason why `x` and `y` couldn't be set to other values.  By changing the value of `x` and/or `y`, we can draw buildings anywhere in the drawing!
+This code accomplishes exactly the same thing as the original code.  The only difference is that rather than "hard-coding" the x coordinate of each rectangle, we introduced a variables called `x` and `y`, which represent the x coordinate of the left edge of the building and the y coordinate of the top edge of the building.  The code sets these variables to 60 and 420, respectively, which leads to drawing the building in precisely the same place as the original version of the code.  However, there is no reason why `x` and `y` couldn't be set to other values.  By changing the value of `x` and/or `y`, we can put buildings anywhere in the drawing!
 
 What we have done here is to *generalize* the code to draw the first building by introducing *parameters* called `x` and `y` that represent the horizontal and vertical position of the building.  "Parameter" simply means a quantity used in a chunk of code, where we want to allow the quantity to vary.  In the code above, the values of `x` and `y` are still fixed, so we haven't really achieved a fully general way to draw arbitrary copies of the building in arbitrary positions.  To do that, we need to create a method:
 
@@ -147,3 +147,71 @@ void drawBuildingOne(int x, int y) { // <-- x and y are parameters!
 {% endhighlight %}
 
 A method is a "generic" chunk of code that can be *called* from anywhere in the program.  The parameters to the method (in this case `x` and `y`) are variables whose values can be specified arbitrarily for each call: in other words, one call to the method might specify `x` as 60 and `y` as 420, while another might specify `x` as 260 and `y` as 400.
+
+In fact, let's do precisely that, by modifying the `drawBuildings` method to call the `drawBuildingOne` method:
+
+{% highlight java %}
+void drawBuildings() {
+  // Draw two copies of building one, using the
+  // drawBuildingOne method
+  drawBuildingOne(60,420);   // use x=60,y=420 for this copy
+  drawBuildingOne(260,420);  // use x=260,y=420 for this copy
+
+  color buildingColor = color(10, 15, 60);
+  color windowGlow = color(200,190,40);
+
+  // Second building
+  fill(buildingColor);
+  stroke(buildingColor);
+  rect(160,405,70,160);
+  
+  // rows of windows on the second building
+  for (int r = 0; r < 10; r++) {
+    stroke(windowGlow);
+    fill(windowGlow);
+    rect(169, 412+r*15, 5, 8);
+    rect(169+16, 412+r*15, 5, 8);
+    rect(169+16*2, 412+r*15, 5, 8);
+    rect(169+16*3, 412+r*15, 5, 8);
+  }
+}
+{% endhighlight %}
+
+Because `drawBuildingOne` allows us to specify values for the `x` and `y` parameters, we can draw the same building in two places.  Note that we left the code for drawing the second (taller) building unchanged.
+
+The beauty of the `drawBuildingOne` method is that we can call it as many times as we want!  Here's an expanded version of `drawBuildings`:
+
+{% highlight java %}
+void drawBuildings() {
+  drawBuildingOne(-10,410);  // use x=-10,y=410 for this copy
+  drawBuildingOne(120,400);  // use x=120,y=400 for this copy
+  drawBuildingOne(60,420);   // use x=60,y=420 for this copy
+  drawBuildingOne(195,415);  // use x=195,y=415 for this copy
+  drawBuildingOne(260,420);  // use x=260,y=420 for this copy
+  drawBuildingOne(340,380);  // use x=340,y=380 for this copy
+
+  color buildingColor = color(10, 15, 60);
+  color windowGlow = color(200,190,40);
+
+  // Second building
+  fill(buildingColor);
+  stroke(buildingColor);
+  rect(160,405,70,160);
+  
+  // rows of windows on the second building
+  for (int r = 0; r < 10; r++) {
+    stroke(windowGlow);
+    fill(windowGlow);
+    rect(169, 412+r*15, 5, 8);
+    rect(169+16, 412+r*15, 5, 8);
+    rect(169+16*2, 412+r*15, 5, 8);
+    rect(169+16*3, 412+r*15, 5, 8);
+  }
+}
+{% endhighlight %}
+
+This produces the following image (click for full size):
+
+> <a href="img/citylights-morebuildings.png"><img style="width: 200px; height: 150px;" src="img/citylights-morebuildings.png"></a>
+
+That looks more like a city!
