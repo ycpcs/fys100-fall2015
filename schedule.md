@@ -19,7 +19,7 @@ Sep 1 | Expectations for college | Discussion | [Day 1](agenda/day01.html) |
 Sep 3 | Expectations for college | Discussion | [Day 2](agenda/day02.html) | [NYTEd30Jul15](http://www.nytimes.com/2015/08/02/education/edlife/advice-for-new-students-from-those-who-know-old-students.html), [Lahey15](http://www.theatlantic.com/education/archive/2015/08/when-success-leads-to-failure/400925/)
 Sep 8 | Visual art: Computer images | [Lab 1](labs/lab01.html) | [Day 3](agenda/day03.html) | (Start [Noll67](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5217127))<br> LP, Introduction, Chapters 1&ndash;2
 Sep 10 | Visual art: Elements and repetition | [Lab 2](labs/lab02.html) | [Day 4](agenda/day04.html) | 
-Sep 15 | Visual art: Generative art | [Lab 3](labs/lab03.html) | [Day 5](agenda/day05.html) | LP, Chapter 4<br>[ShiffmanNOCCh8](http://natureofcode.com/book/chapter-8-fractals/)
+Sep 15 | Visual art: Generative art | [Lab 3](labs/lab03.html) | [Day 5](agenda/day05.html) | LP, Chapters 4&ndash;5<br>[ShiffmanNOCCh8](http://natureofcode.com/book/chapter-8-fractals/)
 Sep 17 | Visual art: Animation | [Lab 4](labs/lab04.html) | [Day 6](agenda/day06.html) | 
 Sep 22 | Visual art: Discussion day | Discussion | [Day 7](agenda/day07.html) | [Noll67](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5217127&queryText=the+digital+computer+as+a+creative+medium&newsearch=true&searchField=Search_All)
 Sep 24 | Visual art: Presentations | Presentations
