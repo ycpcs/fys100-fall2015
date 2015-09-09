@@ -22,4 +22,6 @@ Next, think about
 
 Annotate your graph paper sketch to indicate repeated elements.  In [Lab 2](../labs/lab02.html) we will explore ways of concisely expressing repetition in a Processing program.
 
+*Update*: Please read [Lab 2](../labs/lab02.html).  Don't worry if you don't understand everything completely; I would just like you to have a sense of what we will be trying to accomplish in class.
+
 <div class="clear"></div>
