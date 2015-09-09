@@ -10,9 +10,13 @@ title: "Lab 2: Elements and Repetition"
 
 # What to do
 
-Your task is to use methods and/or loops in your program to generate multiple copies of similar or identical elements in your image.
+Your main task is to create a method with parameters, and use the method to draw multiple copies of a repeated element in your image.
 
-## Example: making a city
+An optional task is to use a loop to generate multiple elements whose positions and/or dimensions vary in a predictable way.
+
+The example below illustrates how to do both of these tasks.
+
+# Example: making a city
 
 Consider the original "City Lights" image (click for full size):
 
@@ -24,7 +28,7 @@ Our goal will be to modify the program to generate more buildings, where each bu
 
 > <a href="img/citylights-morebuildings.png"><img style="width: 200px; height: 150px;" src="img/citylights-morebuildings.png"></a>
 
-### One approach: copy and paste
+## One approach: copy and paste
 
 One approach to making multiple buildings would be to simple copy and paste the code that draws one building, and modify each instance.  For example, here is the original code to draw the first building:
 
@@ -93,7 +97,7 @@ This produces the following image (click for full size):
 
 This works, and is ok if we have only a small number of repeated elements.  However, copy and paste is tedious and error-prone if we have a larger number of repeated elements.  Wouldn't it be great if there were a way to use the same chunk of code to generate multiple copies of the same element?
 
-### Better approach: procedural abstraction
+## Better approach: procedural abstraction
 
 Here is a modified version of the code to draw the first building:
 
@@ -101,8 +105,8 @@ Here is a modified version of the code to draw the first building:
 color buildingColor = color(10, 15, 60);
 color windowGlow = color(200,190,40);
 
-int x = 60;  // x coordinate of left edge of building
-int y = 420; // y coordinate of top edge of building
+float x = 60;  // x coordinate of left edge of building
+float y = 420; // y coordinate of top edge of building
 
 // First building
 fill(buildingColor);
@@ -125,7 +129,7 @@ This code accomplishes exactly the same thing as the original code.  The only di
 What we have done here is to *generalize* the code to draw the first building by introducing *parameters* called `x` and `y` that represent the horizontal and vertical position of the building.  "Parameter" simply means a quantity used in a chunk of code, where we want to allow the quantity to vary.  In the code above, the values of `x` and `y` are still fixed, so we haven't really achieved a fully general way to draw arbitrary copies of the building in arbitrary positions.  To do that, we need to create a method:
 
 {% highlight java %}
-void drawBuildingOne(int x, int y) { // <-- x and y are parameters!
+void drawBuildingOne(float x, float y) { // <-- x and y are parameters!
   color buildingColor = color(10, 15, 60);
   color windowGlow = color(200,190,40);
   
@@ -217,3 +221,71 @@ This produces the following image (click for full size):
 That looks more like a city!
 
 Here is the complete program: [CityLights2.pde](https://github.com/ycpcs/fys100-fall2015/blob/gh-pages/examples/CityLights2.pde)
+
+## Using loops for predictable repetition
+
+Your image may have multiple copies of an element, where the position and/or dimensions of the copies vary in a predictable way.
+
+For example, let's say our goal is to create 4 identical buildings placed at a fixed horizontal interval:
+
+> <a href="img/citylights-loop4.png"><img style="width: 200px; height: 150px;" src="img/citylights-loop4.png"></a>
+
+Here is a version of `drawBuildings` to draw these four buildings:
+
+{% highlight java %}
+void drawBuildings() {
+  drawBuildingOne(10,380);
+  drawBuildingOne(90,380);
+  drawBuildingOne(170,380);
+  drawBuildingOne(250,380);
+}
+{% endhighlight %}
+
+Notice how each call to the `drawBuildingOne` method is very similar: the only thing that is changing is that the x coordinate is increasing by 80 in each call.
+
+A *loop* is a construct that use useful for repeatedly executing some code, such as a call to a method, with one or more values changing for each repetition.  Each changing value is represented by a *variable*.  A variable is a named storage location where a value (such as a number) can be stored.  We have actually seen some variables already: for example, method parameters (such as `x` and `y` in the `drawBuildingOne` method) are variables.
+
+Here is a revised version of `drawBuildings` that uses a loop:
+
+{% highlight java %}
+void drawBuildings() {
+  for (int i = 0; i < 4; i++) {
+    drawBuildingOne(10+i*80, 380);
+  }
+}
+{% endhighlight %}
+
+Let's discuss what is going on here:
+
+* The keyword `for` means that this is a "for loop", which is the most appropriate loop for situations where you want to repeat some code a fixed number of times
+* `int i = 0` declares a variable called `i`, and sets its initial value to 0.
+* `i < 4` is a *loop condition*: it means that the loop will keep going as long as the value of `i` is less than 4.
+* `i++` increases the value of `i` by 1 after each repetition of the loop: as the loop proceeds, the value of `i` will increase.
+* The curly braces (`{` and `}`) enclose the *body* of the loop, which is the code to be repeated.  In this loop, the repeated code is a call to the `drawBuildingOne` method.
+
+The key to understanding this loop is understanding how the value passed to the `x` parameter of `drawBuildingOne` changes as the loop proceeds:
+
+> When `i` is | `10+i*80` is
+> ----------- | ------------
+> 0           | 10
+> 1           | 90
+> 2           | 170
+> 3           | 250
+
+So, because the value of the variable `i` is changing (0, then 1, then 2, etc.), the code `10+i*80` *automatically* calculates the desired x coordinate for the building.  Note that when the value of `i` reaches 4, the loop terminates (stops), because the loop condition `i < 4` specifies that the loop can only continue when `i` is less than 4.  (It is very important to make sure that your loops eventually terminate; otherwise, the program will freeze.)
+
+We can see the true power of loops by changing the loop condition:
+
+{% highlight java %}
+void drawBuildings() {
+  for (int i = 0; i < 8; i++) {  // <-- note changed loop condition
+    drawBuildingOne(10+i*80, 380);
+  }
+}
+{% endhighlight %}
+
+This produces the following image:
+
+> <a href="img/citylights-loop8.png"><img style="width: 200px; height: 150px;" src="img/citylights-loop8.png"></a>
+
+By simply changing the loop condition, we changed how many buildings to draw!
