@@ -30,7 +30,7 @@ Our goal will be to modify the program to generate more buildings, where each bu
 
 ## One approach: copy and paste
 
-One approach to making multiple buildings would be to simple copy and paste the code that draws one building, and modify each instance.  For example, here is the original code to draw the first building:
+One approach to making multiple buildings would be simply to copy and paste the code that draws one building, and modify each instance.  For example, here is the original code to draw the first building:
 
 {% highlight java %}
 color buildingColor = color(10, 15, 60);
