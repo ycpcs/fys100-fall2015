@@ -224,7 +224,7 @@ Here is the complete program: [CityLights2.pde](https://github.com/ycpcs/fys100-
 
 ## Using loops for predictable repetition
 
-Your image may have multiple copies of an element, where the position and/or dimensions of the copies vary in a predictable way.
+Your image may have multiple copies of an element, where the positions and/or dimensions of the copies vary in a predictable way.
 
 For example, let's say our goal is to create 4 identical buildings placed at a fixed horizontal interval:
 
