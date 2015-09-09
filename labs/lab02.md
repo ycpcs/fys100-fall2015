@@ -289,3 +289,5 @@ This produces the following image:
 > <a href="img/citylights-loop8.png"><img style="width: 200px; height: 150px;" src="img/citylights-loop8.png"></a>
 
 By simply changing the loop condition, we changed how many buildings to draw!
+
+Here is the complete program using a loop to draw buildings: [CityLightsLoop.pde](https://github.com/ycpcs/fys100-fall2015/blob/gh-pages/examples/CityLightsLoop.pde)
