@@ -262,6 +262,7 @@ Let's discuss what is going on here:
 * `i < 4` is a *loop condition*: it means that the loop will keep going as long as the value of `i` is less than 4.
 * `i++` increases the value of `i` by 1 after each repetition of the loop: as the loop proceeds, the value of `i` will increase.
 * The curly braces (`{` and `}`) enclose the *body* of the loop, which is the code to be repeated.  In this loop, the repeated code is a call to the `drawBuildingOne` method.
+* `10+i*80` is a calculation using the current value of the variable `i`: note that `*` means multiplication
 
 The key to understanding this loop is understanding how the value passed to the `x` parameter of `drawBuildingOne` changes as the loop proceeds:
 
