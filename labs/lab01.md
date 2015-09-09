@@ -67,7 +67,7 @@ The `draw` function is executed automatically by Processing in order to display 
 
 ## Colors
 
-Colors in processing can be specified in several ways.
+Colors in Processing can be specified in several ways.
 
 A single integer value specifies a grayscale color, where 0 is black, 255 is white, and any value in between specifies a shade of gray.
 
