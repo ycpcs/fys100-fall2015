@@ -7,7 +7,7 @@ title: "Lab 3: Turtles and Fractals"
 
 # Learning goals
 
-* Use turtle graphics to generate images from simple rules
+* Use turtle graphics and Processing drawing functions to generate images from simple rules
 * Appreciate how self-similarity at varying scales leads to "natural"-looking images
 * Understand how to use a recursive method to generate a fractal image
 
@@ -31,7 +31,7 @@ in the text editor.  This line lets Processing know that you will be using the T
 
 # What to do
 
-Your task is to use turtle graphics to draw cool-looking images, and in particular, fractal images.
+Your task is to use turtle graphics and Processing drawing functions to draw cool-looking images, and in particular, fractal images.  The general idea is that the program should use a procedure based on simple rules to create the image.
 
 That's really the only task!  Just mess around and see if you can create some interesting images by modifying and extending some of the examples shown below.  Don't forget to save your favorite programs in your Processing sketchbook folder.
 
@@ -43,7 +43,7 @@ The basic idea is that your program controls one or more "turtles".  Each turtle
 
 Each turtle has a "pen".  The pen can be up or down.  If a turtle moves forward, and if the turtle's pen is down, then the turtle draws a line from its original position to its new position.  The color of the pen can be modified, allowing line segments to be drawn in a variety of colors.
 
-## First example
+## First example: spiral
 
 Here is a simple example:
 
@@ -81,7 +81,7 @@ So, what is going on here?
 
 Try modifying this program.  What happens if you change the amount by which the turtle moves forward at each step?  (Try `i*2` instead of `i`.)  What happens if you change the turn angle to make it larger or smaller?  What happens if you use the `right` command instead of `left`?
 
-## A fractal tree
+## Second example: a fractal tree
 
 Here is an example of a fractal:
 
@@ -145,3 +145,55 @@ The `drawTree` method uses a technique called _recursion_.  The idea is that to 
 In programming, recursion only works if it "bottoms out" at some point.  That is the purpose of the `if` construct: once the segment length (`dist`) falls below a specified minimum threshold, the process stops.  You can think of this as occurring at the "leaves" of the tree.  Without the `if` construct, the recursion would never "finish".
 
 Try experimenting with this program.  What happens if you change the values of the `startLen`, `decay`, and/or `angle` variables?  What happens if you use a minimum segment length threshold other than 5?
+
+## Third example: squares
+
+Fractals can be created by simple rules.  For example, let's say we want to create a fractal image in a square area.  Here are some possible rules
+
+1. Draw a square in the upper-left quadrant
+2. Recursively draw fractals in the lower-left, upper-right, and lower-right quadrants of the area
+
+As with the fractal tree, we need to ensure that the procedure eventually "bottoms out".  So, if the width of the area in which a recursive fractal is drawn fall below a minimum threshold, we do nothing.
+
+Here is the code:
+
+{% highlight java %}
+void setup() {
+  size(800,600);
+  background(235);
+  noLoop();
+}
+
+void draw() {
+  stroke(45,5,60);
+  drawSquares(110,10,580,580);
+}
+
+// The parameters describe a square area with upper-left
+// corner at x,y, width w, and height h
+void drawSquares(float x, float y, float w, float h) {
+  if (w > 2) {
+    // Draw square in upper-left quadrant
+    strokeWeight(3 * (w/580));
+    rect(x, y, w/2, h/2);
+    
+    // Recursive fractals in the lower-left, upper-right,
+    // and lower-right quadrants
+    drawSquares(x, y + h/2, w/2, h/2);
+    drawSquares(x + w/2, y, w/2, h/2);
+    drawSquares(x + w/2, y + h/2, w/2, h/2);
+  }
+}
+{% endhighlight %}
+
+Note that this code does not use turtles, but instead uses normal Processing drawing functions.
+
+Here is the image produced (click for full size):
+
+> <a href="img/squares.png"><img style="width: 200px; height: 150px;" alt="Spiral" src="img/squares.png"></a>
+
+Try modifying this program.  What happens if you comment out one of the recursive calls to `drawSquares`?  What happens if you change the stroke color before each recursive call?  What happens if you draw a different shape instead of a square?  What happens if you fill the squares with a solid color?
+
+I messed around a bit and came up with this (click for full size):
+
+> <a href="img/squares-colors.png"><img style="width: 200px; height: 150px;" alt="Spiral" src="img/squares-colors.png"></a>
