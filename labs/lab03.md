@@ -109,7 +109,7 @@ void draw() {
 
 void drawTree(Terrapin t, float dist) {
   if (dist > 5) {
-    strokeWeight(4 * dist/startLen);
+    strokeWeight(4 * (dist/startLen));
     
     t.forward((int)dist);
     
