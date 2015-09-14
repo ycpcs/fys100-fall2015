@@ -39,7 +39,7 @@ That's really the only task!  Just mess around and see if you can create some in
 
 [Turtle graphics](https://en.wikipedia.org/wiki/Turtle_graphics) were invented as part of the [Logo](https://en.wikipedia.org/wiki/Logo_(programming_language) programming language.
 
-The basic idea is that your program controls one or more "turtles".  Each turtle has a position (and y coordinates), and an orientation (the angle specifying which way the turtle is facing.)  The program can give commands to the turtle: the most important commands are to instruct the turtle to move forward by a specified distance, and to rotate left or right.
+The basic idea is that your program controls one or more "turtles".  Each turtle has a position (x and y coordinates), and an orientation (the angle specifying which way the turtle is facing.)  The program can give commands to the turtle: the most important commands are to instruct the turtle to move forward by a specified distance, and to rotate left or right.
 
 Each turtle has a "pen".  The pen can be up or down.  If a turtle moves forward, and if the turtle's pen is down, then the turtle draws a line from its original position to its new position.  The color of the pen can be modified, allowing line segments to be drawn in a variety of colors.
 
