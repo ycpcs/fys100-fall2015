@@ -22,6 +22,7 @@ Welcome to the FYS 100.139 home page!  All of the information about the course w
 
 ## News
 
+* **Sep 14** &ndash; [Unit Project 1](project/project01.html) has been posted.  See the description for deliverables and due dates.
 * **Sep 1** &ndash; [Writing Assignment 0](assign/assign00.html), where you will set up a shared Google Drive folder and start a journal, is due Friday, Sep 4th.  [Writing Assignment 1](assign/assign01.html) describes the requirements for the journal.  You will be updating your journal throughout the semester.
 * **Sep 1** &ndash; Welcome!
 
