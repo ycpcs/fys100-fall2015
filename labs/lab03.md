@@ -20,7 +20,7 @@ To run the example programs in this lab, you will need to add the [Terrapin](htt
 * Download [Terrapin.zip](../media/Terrapin.zip) and save it somewhere (such as your Downloads folder)
 * Open a file browser window, navigate into the folder where you saved Terrapin.zip
 * Right-click on Terrapin.zip, and choose **Extract All**
-* Change the target directory to the **libraries/Terrapin** folder within your sketchbook directory (which is most likely the **sketchbook** directory in your H: drive)
+* Change the target directory to the **libraries/Terrapin** folder within your sketchbook directory (again, whichever folder you configured in your Preferences)
 * Choose **Extract**
 
 Start (or restart) Processing.  Choose **Sketch** &rarr; **Import library...** &rarr; **Terrapin**.  You should see the code
