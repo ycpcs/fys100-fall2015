@@ -36,7 +36,7 @@ To animate a single element of the image, as we did in the building animation, a
 Doing this is simple: we can add a *global variable* to the program to keep track of where the moving building should be displayed.  Our global variable will look like this:
 
 {% highlight java %}
-int spaceshipY = -140;
+int buildingY = -140;
 {% endhighlight %}
 
 It is a global variable as long as we define it outside any of the program's methods.  Global variables are "visible" to *all* of the methods in the program, so they can be referred to in any method.  Note that for this global variable, we have defined it as an `int` (integer), and given it an initial value (-140).
