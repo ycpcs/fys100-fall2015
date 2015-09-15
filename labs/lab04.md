@@ -66,3 +66,65 @@ if (buildingY < 400) {
 This code uses an `if` construct to check whether `buildingY` is less than 400.  If it is, then it increases the value of `buildingY` by 1.  (That is what the `++` does.)  The purpose of the `if` construct is to make the building stop moving when `buildingY` reaches 400.  If we didn't do this, the building would keep moving down indefinitely, and eventually move past the bottom of the scene.
 
 Here is the complete code: [CityLightsAnimation.pde](https://github.com/ycpcs/fys100-fall2015/blob/gh-pages/labs/code/CityLightsAnimation.pde)
+
+## Other possibilities
+
+The example above is a simple one.  There are many more possible ways to add animated elements to your program:
+
+* You can change an element's x coordinate to produce horizontal motion
+* You can change an element's x and y coordinates at the same time to produce diagonal motion (note that you will need two global variables to allow this)
+* Rather than changing the position of an element, you could change a dimension (width or height) or color, if the method that draws the element has parameters to control those aspects of the element
+
+## Using arrays to control many elements at once
+
+If you are animating multiple elements, you will need at least one global variable per element.  Using and updating multiple variables can become tedious and error-prone.
+
+An *array* is a sequence of variables.  The variables in an array are called the *elements* of the array, and each array element is referred to using an integer index.  The first element in an array has index 0, the second has index 1, etc.
+
+Here is how we might use arrays to animate all of the buildings (except for the original second building, which we'll leave where it is.)
+
+First, we'll declare two global arrays to keep track of
+
+* The current y coordinate of each animated building
+* The "stop" y coordinate of each building (basically, each building's final y coordinate when it "lands")
+
+Here are the global arrays:
+
+{% highlight java %}
+int[] buildingY = { -200, -320, -175, -240, -190, -210 };
+int[] stopY = { 410, 400, 420, 415, 420, 380 };
+{% endhighlight %}
+
+Note how there are 6 elements in each array, one for each building.  The `buildingY` array serves the same purpose that the `buildingY` variable did in the previous animation, except that now it can keep track of the positions of 6 buildings rather than just one building.  The `stopY` array keeps track of where each building should stop: this allows each building to stop moving at a different position.
+
+Now we just need code to
+
+* Update the elements of the `buildingY` array in order to make the building positions change from frame to frame
+* Use the elements of the `buildingY` array to control the positions of the buildings
+
+We can add code to the `drawBuildings` method to accomplish both of these:
+
+{% highlight java %}
+for (int i = 0; i < buildingY.length; i++) {
+  if (buildingY[i] < stopY[i]) {
+    buildingY[i]++;
+  }
+}
+  
+drawBuildingOne(-10,buildingY[0]);
+drawBuildingOne(120,buildingY[1]);
+drawBuildingOne(60,buildingY[2]);
+drawBuildingOne(195,buildingY[3]);
+drawBuildingOne(260,buildingY[4]);
+drawBuildingOne(340,buildingY[5]);
+{% endhighlight %}
+
+The `for` loop checks each building's y coordinate (`i` is an index to select an element, first 0, then 1, etc.) and increases the building's y coordinate if the y coordinate has not yet reached the stop value.
+
+The calls to `drawBuildingOne` are the same as before, except that instead of hard-coded y coordinate values, the y coordinate values are taken from the values of the elements of the `buildingY` array.
+
+Click the following link to see the updated animation:
+
+> [Multiple building animation](code/multi-building.html)
+
+Here is the complete code: [CityLightsAnimation2.pde](https://github.com/ycpcs/fys100-fall2015/blob/gh-pages/labs/code/CityLightsAnimation2.pde)
