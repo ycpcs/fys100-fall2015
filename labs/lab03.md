@@ -15,13 +15,15 @@ title: "Lab 3: Turtles and Fractals"
 
 To run the example programs in this lab, you will need to add the [Terrapin](http://terrapin.sourceforge.net/) library to your Processing sketchbook.  Here is how to do this on Windows (for example, in KEC 123):
 
+* In Processing, choose **File&rarr;Preferences**, and set your sketchbook folder to whichever folder you are using to save your Processing programs
+* In your Processing sketchbook folder (the one you configured in Preferences), create a folder called **libraries** (if it doesn't already exist), and then within **libraries**, create a folder called **Terrapin**
 * Download [Terrapin.zip](../media/Terrapin.zip) and save it somewhere (such as your Downloads folder)
 * Open a file browser window, navigate into the folder where you saved Terrapin.zip
-* Right-click on Terrapin.zip, and choose **Extract**
-* Change the target directory to the **libraries** folder within your sketchbook directory (which is most likely the **sketchbook** directory in your H: drive)
-* Choose **Extract all**
+* Right-click on Terrapin.zip, and choose **Extract All**
+* Change the target directory to the **libraries/Terrapin** folder within your sketchbook directory (which is most likely the **sketchbook** directory in your H: drive)
+* Choose **Extract**
 
-Start Processing.  Choose **Sketch** &rarr; **Import library...** &rarr; **Terrapin**.  You should see the code
+Start (or restart) Processing.  Choose **Sketch** &rarr; **Import library...** &rarr; **Terrapin**.  You should see the code
 
 {% highlight java %}
 import terrapin.*;
