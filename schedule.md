@@ -22,8 +22,8 @@ Sep 10 | Visual art: Elements and repetition | [Lab 2](labs/lab02.html) | [Day 4
 Sep 15 | Visual art: Generative art | [Lab 3](labs/lab03.html) | [Day 5](agenda/day05.html) | LP, Chapters 4&ndash;5<br>[ShiffmanNOCCh8](http://natureofcode.com/book/chapter-8-fractals/)
 Sep 17 | Visual art: Animation | [Lab 4](labs/lab04.html) | [Day 6](agenda/day06.html) | 
 Sep 22 | Visual art: Discussion day | Discussion | [Day 7](agenda/day07.html) | [Noll67](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5217127&queryText=the+digital+computer+as+a+creative+medium&newsearch=true&searchField=Search_All)
-Sep 24 | Visual art: Presentations | Presentations
-Sep 29 | Music: What is sound? What is music? | [Lab 5](labs/lab05.html)
+Sep 24 | Visual art: Presentations | Presentations | [Day 8](agenda/day08.html)
+Sep 29 | Music: What is sound? What is music? | [Lab 5](labs/lab05.html) | [Day 9](agenda/day09.html) | See agenda
 Oct 1 | Music: Rhythm patterns | [Lab 6](labs/lab06.html)
 Oct 6 | Music: Melody, basic music theory | [Lab 7](labs/lab07.html)
 Oct 8 | Music: Composition | [Lab 8](labs/lab08.html)
