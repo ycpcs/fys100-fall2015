@@ -33,6 +33,50 @@ Sine waves tend to occur naturally due to the way physical objects vibrate.  A p
 
 A sound consisting of a single sine wave tends to sound very artificial because sounds arising from the vibration of physical objects tend to have *overtones*, which are vibrations occuring at a multiple of the sound's base frequency.  For example, when an instrument string vibrates, the length of the string will determine the base frequency, but overtones will occur which are twice the base frequency, three times the base frequency, four times the base frequency, etc.
 
+Here is a sample of a 440 Hz sine wave, along with some overtones:
+
+> TODO: 440 Hz sine wave with overtones
+
+Note that in the audio sample above, the relative volume of the overtone frequencies has been lowered relative to the volume of the base frequency.
+
+It turns out that *any* sound imaginable can be created by combining sine waves.  All of the sounds that you hear are combinations of sine waves with varying frequencies and volumes.
+
+## Electronic waveforms
+
+Electronic instruments, such as synthesizers and computers with sound output hardware, are not limited to creating pure sine waves.  In fact, it tends to be easier for digital devices to generate "artificial" sound waveforms.  Here are some examples of commonly-used electronic waveforms.
+
+A square wave is characterized by abrupt transitions from low to high pressure:
+
+> TODO: diagram of a square wave
+
+Here is a sample of a 440 Hz square wave:
+
+> TODO: 440 Hz square wave
+
+A square wave has e a more complex sound than a sine wave of the same frequency.  The shape of the waveform results in [higher frequency overtones at odd multiples of the base frequency](http://www.embedded.com/print/4015870).
+
+Another common electronic waveform is the sawtooth wave, characterized by a linear rise and an abrupt fall in pressure during each oscillation:
+
+> TODO: diagram of a sawtooth wave
+
+Here is a sample of a 440 Hz sawtooth wave:
+
+> TODO: 400 Hz sawtooth wave
+
+Again, the sawtooth wave has a more complex sound than a sine wave of the same frequency.
+
+A triangle wave is like a sawtooth wave, except rather than having an abrupt fall, the fall is pressure linear:
+
+> TODO: diagram of a triangle wave
+
+Here is a sample of a 440 Hz triangle wave:
+
+> TODO: 440 Hz triangle wave
+
+The sound of a triangle wave is similar to a square wave.
+
+## What is music?
+
 ## Experiments
 
 Yeah.
