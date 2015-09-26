@@ -19,13 +19,15 @@ Next, do the experiments in the *Experiments* section.
 
 Sound is caused by rapid vibrations, or *oscillations*, in physical objects.  These oscillations cause rapid changes in air pressure over time.
 
-Sounds can be characterized by the *rate* at which the oscillations occur.  For example, let's say that a vibration causes air pressure to increase and decrease at a rate of 440 changes per second: in other words, 440 times per second, the air pressure increases and then decreases.  We would describe this sound as having a *frequency* of 440 Hertz, abbreviated 440 Hz.
+Sounds can be characterized by the *rate* at which the changes in air pressure occur.  For example, let's say that a vibration causes air pressure to increase and decrease at a rate of 440 changes per second: in other words, 440 times per second, the air pressure increases and then decreases.  We would describe this sound as having a *frequency* of 440 Hertz, abbreviated 440 Hz.
 
 Sounds with lower frequencies sound "low", and sounds with higher frequencies sound "high".  The lowest frequency that we can hear is about 20 Hz, while the highest frequency we can hear is about 20,000 Hz.
 
 The most fundamental kind of oscillation is the *sine wave*:
 
-> TODO: diagram of a sine wave
+> ![Sine wave](img/sinewave.png)
+
+The diagram above is a plot of air pressure over time, where the x-axis is time, and the y-axis is pressure.
 
 Sine waves tend to occur naturally due to the way physical objects vibrate.  A pure sine wave represents a single clear tone.  For example, here is a sample of a 440 Hz sine wave:
 
@@ -47,7 +49,7 @@ Electronic instruments, such as synthesizers and computers with sound output har
 
 A square wave is characterized by abrupt transitions from low to high pressure:
 
-> TODO: diagram of a square wave
+> ![Square wave](img/squarewave.png) 
 
 Here is a sample of a 440 Hz square wave:
 
@@ -57,7 +59,7 @@ A square wave has e a more complex sound than a sine wave of the same frequency.
 
 Another common electronic waveform is the sawtooth wave, characterized by a linear rise and an abrupt fall in pressure during each oscillation:
 
-> TODO: diagram of a sawtooth wave
+> ![Sawtooth wave](img/sawtoothwave.png)
 
 Here is a sample of a 440 Hz sawtooth wave:
 
@@ -67,7 +69,7 @@ Again, the sawtooth wave has a more complex sound than a sine wave of the same f
 
 A triangle wave is like a sawtooth wave, except rather than having an abrupt fall, the fall is pressure linear:
 
-> TODO: diagram of a triangle wave
+> ![Triangle wave](img/trianglewave.png)
 
 Here is a sample of a 440 Hz triangle wave:
 
