@@ -195,7 +195,7 @@ addfx(synth, new AddAutoPan(.5, -.8, .8)); // .5 Hz (one full pan every 2 second
 
 // Ping pong stereo delays: create echoes that alternate between
 // left and right channels
-Params ppdParams = AddPingPongStereoDelays.defaultParams();
+DataBead ppdParams = AddPingPongStereoDelays.defaultParams();
 ppdParams.put(ParamNames.NUM_DELAYS, 4); // number of delays
 ppdParams.put(ParamNames.DELAY_MS, 250); // number of milliseconds between delays
 addfx(synth, new AddPingPongStereoDelays(ppdParams));
