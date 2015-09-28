@@ -127,7 +127,7 @@ Find the section of `registerCustomInstruments` that defines custom instrument 0
 
 One thing that you will notice about custom instrument 0 is that the note sounds turn on and off very abruptly.  Rapid changes in volume tend to produce a clicking or popping sound.  These pops can be avoided by playing the notes with an *envelope*.  When a note envelope is used, notes start playing with a rise in volume over a specified *attack time*, and stop playing with a lowering of volume over a specified *release time*.
 
-At the top of the program, change the line
+Towards the top of the program, change the line
 
 {% highlight java %}
 Instrument synth = custom(0); // <-- change this to select among the custom instruments
