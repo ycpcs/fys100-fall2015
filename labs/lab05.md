@@ -174,6 +174,12 @@ Another way to change the sound of a synthesized instrument is to add *effects*.
 //addfx(synth, new AddReverb()); // <-- uncomment this line to add reverb
 {% endhighlight %}
 
+After removing the comment marker, it should look like this:
+
+{% highlight java %}
+addfx(synth, new AddReverb()); // <-- uncomment this line to add reverb
+{% endhighlight %}
+
 Try playing some notes with the reverb effect.
 
 FunWithSound allows multiple effects to be added to the same instrument.  Here are some other effects you can try, individually, or in combination:
