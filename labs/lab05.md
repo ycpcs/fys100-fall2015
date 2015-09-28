@@ -69,7 +69,7 @@ Here is a sample of a 440 Hz sawtooth wave:
 
 Again, the sawtooth wave has a more complex sound than a sine wave of the same frequency.
 
-A triangle wave is like a sawtooth wave, except rather than having an abrupt fall, the fall is pressure linear:
+A triangle wave is like a sawtooth wave, except rather than having an abrupt fall, the fall is linear:
 
 > ![Triangle wave](img/trianglewave.png)
 
