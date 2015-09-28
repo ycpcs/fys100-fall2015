@@ -88,7 +88,7 @@ Your task is to experiment with playing notes using basic waveforms.
 The first thing you will need to do is install the [FunWithSound](https://github.com/daveho/FunWithSound) Processing library.  The steps will be similar to what you did to install the [Terrapin](http://terrapin.sourceforge.net/) library in [Lab 3](lab03.html).  Here is what you should do:
 
 * In Processing, choose **File&rarr;Preferences**, and verify that your sketchbook folder is set to whichever folder you are using to save your Processing programs; if it is not set correctly, change it
-* Download [FunWithSound.zip](https://github.com/daveho/FunWithSound/releases/download/v1.0.5/FunWithSound.zip) and save it somewhere (such as your Downloads folder)
+* Download [FunWithSound.zip](https://github.com/daveho/FunWithSound/releases/download/v1.0.4/FunWithSound.zip) and save it somewhere (such as your Downloads folder)
 * Open a file browser window, navigate into the folder where you saved FunWithSound.zip
 * Right-click on FunWithSound.zip, and choose **Extract All**
 * Change the target directory to the **libraries** folder within your sketchbook directory (again, whichever folder you configured in your Preferences)
