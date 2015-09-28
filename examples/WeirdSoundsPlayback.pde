@@ -18,23 +18,30 @@ class MyComp extends Composer {
     Instrument metronome = percussion();
 
     // Set up the custom instrument that will be used for notes played live
-    Instrument synth = custom(0); // <-- change this to select among the custom instruments
-    //addfx(synth, new AddReverb()); // <-- uncomment this line to add reverb
+    Instrument synth = custom(1); // <-- change this to select among the custom instruments
+    addfx(synth, new AddReverb()); // <-- uncomment this line to add reverb
     v(synth, 0.2); // reduce the volume
+    
+    Instrument synth2 = custom(1);
+    addfx(synth2, new AddReverb());
+    v(synth2, 0.2); // reduce the volume
     
     // Metronome pattern: plays a closed hihat every 2 beats
     Rhythm metr = rr(p(0,101), 2, 4);
     Figure metf = pf(metr, 42, metronome);
     
-    // Add 8 measures of the metronome pattern
-    add1(gf(metf));
-    add1(gf(metf));
-    add1(gf(metf));
-    add1(gf(metf));
-    add1(gf(metf));
-    add1(gf(metf));
-    add1(gf(metf));
-    add1(gf(metf));
+    // Notes captured for replay
+    Rhythm bassr = r(
+      s(0.000,1.037,96), s(2.114,1.072,96), s(4.153,0.459,93), s(4.608,0.665,75), s(5.768,0.535,90), s(6.795,0.452,93), s(7.103,0.611,72));
+    Melody bassm = m(
+      an(38), an(38), an(38), an(45), an(43), an(43), an(36));
+    Figure bassf = f(bassr, bassm, synth2);
+    
+    // Add 4 measures of the metronome pattern and bass pattern
+    add1(gf(metf,bassf));
+    add1(gf(metf,bassf));
+    add1(gf(metf,bassf));
+    add1(gf(metf,bassf));
     
     // Play live using the custom instrument
     audition(synth);
@@ -92,7 +99,7 @@ void registerCustomInstruments(Player player) {
         params.put(ParamNames.ATTACK_TIME_MS, 10.0); // <-- change the attack time
         params.put(ParamNames.RELEASE_TIME_MS, 80.0); // <-- change the release time
         SynthToolkit tk = SynthToolkitBuilder.start()
-          .withWaveVoice(Buffer.SINE) // <-- try Buffer.SQUARE, Buffer.SAW, Buffer.TRIANGLE
+          .withWaveVoice(Buffer.SAW) // <-- try Buffer.SQUARE, Buffer.SAW, Buffer.TRIANGLE
           .withASRNoteEnvelope()
           .getTk();
         MonoSynthUGen2 u = new MonoSynthUGen2(ac, tk, params,
