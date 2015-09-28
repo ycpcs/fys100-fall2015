@@ -223,9 +223,9 @@ You can copy these lines into your program so that they become a permanent part 
 First, you will probably want to create a new instrument for the replayed notes.  You can copy and paste the code that creates the `synth` instrument, and then rename it (e.g., as `synth2`):
 
 {% highlight java %}
-    Instrument synth2 = custom(1);
-    addfx(synth2, new AddReverb());
-    v(synth2, 0.2); // reduce the volume
+Instrument synth2 = custom(1);
+addfx(synth2, new AddReverb());
+v(synth2, 0.2); // reduce the volume
 {% endhighlight %}
 
 Then, just below the code that defines the metronome pattern, copy and paste the code for the captured notes, and rename the variables to something other than "rhythm" and "melody":
