@@ -252,4 +252,8 @@ Here is a recording of the result:
 
 > <iframe width="500" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/225978643&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_artwork=false"></iframe>
 
+Here is the full code of this program:
+
+> [WeirdSoundsPlayback.pde](https://github.com/ycpcs/fys100-fall2015/blob/gh-pages/examples/WeirdSoundsPlayback.pde)
+
 At this point you can see how we could build a composition: by recording small pieces of the composition, defining them using rhythms, melodies, and figures, and specifying when they should be played.
