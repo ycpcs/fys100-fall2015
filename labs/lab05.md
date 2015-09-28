@@ -117,7 +117,7 @@ Now you can try some experiments!  If you scroll down to the bottom of the Proce
 
 on some lines of code.  These comments highlight changes you can make to change the note sounds.
 
-Note: if you change the code, you will need to restart sketch in order for your changes to take effect.
+Note: if you change the code, you will need to restart the sketch in order for your changes to take effect.
 
 ### Experiment 1: Basic synth sounds
 
