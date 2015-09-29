@@ -3,12 +3,14 @@ layout: default
 title: "Unit Project 1: Visual Art"
 ---
 
+*Update 9/29*: Changed due date for final version of reflection to **Friday, Oct 2nd**
+
 # Deliverables / due dates
 
 This project has the following deliverables:
 
 * A program, due **Friday, Sept 25th** by 11:59 PM
-* A reflection, draft due **Thursday, Sept 24th** by 11:59 PM, final version due **Thursday, Oct 1st**
+* A reflection, draft due **Thursday, Sept 24th** by 11:59 PM, final version due **Friday, Oct 2nd**
 
 The deliverables are described in the "What to do" section below.
 
