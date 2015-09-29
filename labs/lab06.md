@@ -88,4 +88,17 @@ void mouseClicked() {
 
 ## Example
 
-TODO.
+This example shows the creation of a rhythm that might be appropriate for some type of [Electronic Dance Music](https://en.wikipedia.org/wiki/Electronic_dance_music), possibly [House](https://en.wikipedia.org/wiki/House_music) (?).
+
+Typical components of a rhythm in EDM include
+
+* Four beats per measure
+* Kick drum (often on the first and third beats)
+* Snare, often following the kick drum, and often [syncopated](https://en.wikipedia.org/wiki/Syncopation)
+* Hihat cymbals, often used for "fills" between the kick drum and snare
+
+Note that in the starter code shown above, the tempo is actually set to use 8 beats per measure.  There is really no particular difference between 4 beats per measure and 8 beats per measure.  If you want to use 4 beats per measure, and lower the number of beats per minute, that's fine.  However, the code below will assume 8 beats per measure.
+
+One question to think about is what you would like the percussion sounds to sound like.  FunWithSound supports *soundfonts*, which are libraries of instrument sounds.  The **soundfonts.zip** file you downloaded and extracted onto your USB flash drive has a number of interesting soundfonts.  Some of these soundfonts emulate particular synthesizers or drum machines, while others are "general purpose" soundfonts containing a large variety of different instrument sounds.
+
+Most sound fonts are organized according to the [GM1 sound set](http://www.midi.org/techspecs/gm1sound.php) as defined in the [MIDI](http://www.midi.org/) standard.
