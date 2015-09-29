@@ -5,7 +5,7 @@ title: "Agenda: Day 10"
 
 # Agenda
 
-On day 10 we will work on [Lab 6](../labs/lab10.html), in which we will create a rhythm part for a music composition.
+On day 10 we will work on [Lab 6](../labs/lab06.html), in which we will create a rhythm part for a music composition.
 
 ## Get Ready
 
