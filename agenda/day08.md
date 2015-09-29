@@ -5,7 +5,7 @@ title: "Agenda: Day 8"
 
 # Agenda
 
-On day 7 we will have presentations of visual art compositions using Processing.
+On day 8 we will have presentations of visual art compositions using Processing.
 
 ## Get Ready
 
