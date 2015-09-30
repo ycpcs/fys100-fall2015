@@ -27,7 +27,7 @@ import net.beadsproject.beads.data.*;
 
 // You may need to change this, depending on which drive letter
 // is assigned to your USB flash drive.
-final String SOUNDFONT_DIR = "D:/";
+final String SOUNDFONT_DIR = "D:/SoundFonts";
 
 // Some good percussion soundfonts
 final String TR808 = SOUNDFONT_DIR + "/tr808/Roland_TR-808_batteria_elettronica.sf2";
