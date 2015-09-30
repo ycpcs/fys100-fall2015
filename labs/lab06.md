@@ -267,3 +267,7 @@ You can have some of your instrument sounds "drop out" for a measure, or perhaps
 
 * Have the hihats drop out
 * Have everything but the kick drum drop out
+
+### Play live
+
+Use the `audition` command to play a percussion instrument live.  The `ARACHNO` soundfont has some really interesting percussion sounds (including sounds for note numbers beyond the ones defined by the GM1 standard.)
