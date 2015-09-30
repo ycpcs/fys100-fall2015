@@ -39,7 +39,7 @@ class MyComp extends Composer {
     tempo(200, 8);  // 200 beats per minute, 8 beats per measure
 
     // Metronome instrument for keeping time
-    Instrument metronome = percussion();
+    Instrument metronome = percussion(TR808);
 
     // Set up a percussion instruments for building a rhythm pattern
     Instrument drumkit = percussion(TR808);
