@@ -69,7 +69,7 @@ Notice how the major scale sounds "happy", and the minor scale sounds "sad".
 
 ### What this means to you
 
-You will probably want to pick a scale to use in your composition, and use notes selected from that scale.  In particular, C major and A minor are good choices, because the notes in those scales corresponds exactly to the white keys on the piano keyboard.
+You will probably want to pick a scale to use in your composition, and use notes selected from that scale.  In particular, C major and A minor are good choices, because the notes in those scales correspond exactly to the white keys on the piano keyboard.
 
 ## An example
 
