@@ -31,7 +31,7 @@ An interesting auditory phenomenon occurs when you multiply a note's frequency b
 
 Frequencies that differ by a factor of 2 are one *octave* apart.
 
-So, what about notes within a scale?  Western music uses a 12 tone scale, meaning that there are 12 distinct pitches in each octave.  The difference between two notes is called a *semitone* or a *half step*.  So, what is the relationship between the notes within an octave?
+So, what about notes within an octave?  Western music uses a 12 tone scale, meaning that there are 12 distinct pitches in each octave.  The difference between two notes is called a *semitone* or a *half step*.  So, what is the relationship between the notes within an octave?
 
 The basic idea is that we want the notes within the scale to be separated by more or less the same difference in pitch.  Because the next higher octave involves doubling the frequency, moving to the next note involves "one-twelfth doubling" of the frequency.  The idea is that there is a factor, which, if multiplied by a note frequency, gives us the frequency of the next note, *and*, if we multiply a note frequency by the factor 12 times, we effectively double the frequency, giving us the same note at the next higher octave.
 
