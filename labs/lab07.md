@@ -56,6 +56,7 @@ Instrument bass = instr(VDW, 4);
 
 {% highlight java %}
 audition(bass);
+v(bass,0.6); // make the bass a bit quieter
 {% endhighlight %}
 
 Here is a bass melody I captured by playing live:
@@ -119,3 +120,165 @@ add1(gf(kickf,snaref,hihatf));
 Here is what it sounds like:
 
 > <iframe width="500" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/227034913&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_artwork=false"></iframe>
+
+### Pad
+
+A synth "pad" is a sustained note or chord, often similar to strings, used as a background accompaniment to a composition.  Patches 89&ndash;96 in the GM1 sound set specify pad sounds, so one of the general-purpose soundfonts is a good place to look for pads.  Let's try the "Pad 8 (sweep)" sound in the FluidR3 soundfont:
+
+{% highlight java %}
+Instrument pad = instr(FLUID, 96);
+{% endhighlight %}
+
+Here is a rhythm, melody, and figure (I played this live, and then edited the rhythm to make the notes start and end in the right places):
+
+{% highlight java %}
+Rhythm padr = r(
+  s(0,6,101), s(6,1,101), s(7,1,101),
+  s(8,4,101), s(12,2,101), s(14,2,101),
+  s(16,6,101), s(22,1,101), s(23,1,101),
+  s(24,4,101), s(28,2,101), s(30,2,101)
+);
+Melody padm = m(
+  an(71), an(72), an(74),
+  an(71), an(72), an(69),
+  an(71), an(69), an(67),
+  an(69), an(67), an(69));
+Figure padf = f(padr, padm, pad);
+{% endhighlight %}
+
+This figure is four measures long, so we only need to play it every fourth measure.  Let's extend the composition to 8 measures, and combine this part with the percussion and bass parts:
+
+{% highlight java %}
+add1(gf(kickf,snaref,hihatf,bassf,padf));
+add1(gf(kickf,snaref,hihatf));
+add1(gf(kickf,snaref,hihatf,bassf));
+add1(gf(kickf,snaref,hihatf));
+add1(gf(kickf,snaref,hihatf,bassf,padf));
+add1(gf(kickf,snaref,hihatf));
+add1(gf(kickf,snaref,hihatf,bassf));
+add1(gf(kickf,snaref,hihatf));
+{% endhighlight %}
+
+Here is how it sounds:
+
+> <iframe width="500" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/227042499&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_artwork=false"></iframe>
+
+### Lead
+
+A lead part carries the composition's main melody.
+
+I think any discussion of synth leads would be incomplete without at least mentioning the Doctor Who theme composed by [Ron Grainer](https://en.wikipedia.org/wiki/Ron_Grainer) and played by [Peter Howell](https://en.wikipedia.org/wiki/Peter_Howell_(musician%29):
+
+> <iframe width="252" height="189" src="https://www.youtube.com/embed/v2oCK89xxNQ" frameborder="0" allowfullscreen></iframe>
+
+In the spirit of reproducing some authentic 1980s cheesiness, let's use a custom instrument based on a sawtooth wave, add some portamento (for the "sliding" effect from note to note), and put on some delays and a reverb.  First, the instrument definition:
+
+{% highlight java %}
+Instrument lead = custom(0);
+v(lead, 0.1); // the raw waveforms are super loud, quiet it down 
+addfx(lead, new AddDelay(300.0, 1.0, 0.5));
+addfx(lead, new AddDelay(600.0, 1.0, 0.4));
+addfx(lead, new AddDelay(900.0, 1.0, 0.3));
+addfx(lead, new AddReverb());
+{% endhighlight %}
+
+In order to use a custom instrument, we need to add one method to the `MyFWS` class, and one method to the overall sketch.  The method to add to `MyFWS` is:
+
+{% highlight java %}
+protected Player createPlayer() {
+  Player player = super.createPlayer();
+  registerCustomInstruments(player);
+  return player;
+}
+{% endhighlight %}
+
+The method to add at the end of the sketch is:
+
+{% highlight java %}
+void registerCustomInstruments(Player player) {
+  CustomInstrumentFactory factory = new CustomInstrumentFactoryImpl(
+    0, new CustomInstrumentFactoryImpl.CreateCustomInstrument() {
+      public RealizedInstrument create(AudioContext ac) {
+        DataBead params = Defaults.monosynthDefaults();
+        params.put(ParamNames.GLIDE_TIME_MS, 80.0f);
+        SynthToolkit tk = SynthToolkitBuilder.start()
+          .withWaveVoice(Buffer.SAW)
+          .withOnOffNoteEnvelope()
+          .getTk();
+        MonoSynthUGen2 u = new MonoSynthUGen2(ac, tk, params,
+          new double[]{ 1.0, 1.5, 2.0 },
+          new double[]{ 1.0, .5, .4 }
+          );
+        return new RealizedInstrument(u, ac);
+      }
+    });
+  player.setCustomInstrumentFactory(factory);
+}
+{% endhighlight %}
+
+You can refer to the completed source code, [Groove.pde](https://github.com/ycpcs/fys100-fall2015/blob/gh-pages/examples/Groove.pde), to see exactly where to put these methods.
+
+Note that you absolutely can and should use a lead instrument chosen from a soundfont, if you would prefer that to a custom instrument.  Patches 81&ndash;88 in the GM1 sound set are synth leads, but in general you will find lots of sounds that work well for leads.
+
+Once our lead instrument is in place, we just need a rhythm and melody:
+
+{% highlight java %}
+Rhythm leadr = r(
+  s(2,2,106), s(4,4,93),
+  s(7,1,102), s(8,2,102), s(10,1,81), s(11,2,72), s(13,3,90),
+  s(18,2,79), s(20,4,99),
+  s(23,1,77), s(24,2,67), s(26,1,71), s(27,2,110), s(29,1,110), s(30,2,67),
+  s(34,2,106), s(36,3,79),
+  s(39,1,85), s(40,2,99), s(42,1,96), s(43,2,106), s(45,3,87),
+  s(50,2,102), s(52,1,102), s(53,2,87),
+  s(55,1,87), s(56,6,106)
+  );
+Melody leadm = m(
+  an(76), an(77),
+  an(67), an(77), an(76), an(65), an(67),
+  an(76), an(77),
+  an(76), an(79), an(77), an(76), an(71), an(76),
+  an(76), an(77),
+  an(76), an(77), an(76), an(69), an(79),
+  an(76), an(77), an(76),
+  an(67), an(69)
+);
+Figure leadf = f(leadr, leadm, lead);
+{% endhighlight %}
+
+Again, I played this part live, and then edited the rhythm until all of the notes were in the right places.
+
+This figure is 8 measures long.  We'll update the composition so that there is a percussion lead in, then the bass enters, then the pad enters, then the pad drops out, and then the pad resumes and the lead enters:
+
+{% highlight java %}
+add1(gf(kickf,snaref,hihatf)); // percussion lead in
+add1(gf(kickf,snaref,hihatf));
+add1(gf(kickf,snaref,hihatf,bassf)); // bass enters
+add1(gf(kickf,snaref,hihatf));
+add1(gf(kickf,snaref,hihatf,bassf));
+add1(gf(kickf,snaref,hihatf));
+add1(gf(kickf,snaref,hihatf,bassf,padf)); // pad enters
+add1(gf(kickf,snaref,hihatf));
+add1(gf(kickf,snaref,hihatf,bassf));
+add1(gf(kickf,snaref,hihatf));
+add1(gf(kickf,snaref,hihatf,bassf)); // pad ends, and its just perc+bass
+add1(gf(kickf,snaref,hihatf));
+add1(gf(kickf,snaref,hihatf,bassf));
+add1(gf(kickf,snaref,hihatf));
+add1(gf(kickf,snaref,hihatf,bassf,padf,leadf)); // now everything, including lead!
+add1(gf(kickf,snaref,hihatf));
+add1(gf(kickf,snaref,hihatf,bassf));
+add1(gf(kickf,snaref,hihatf));
+add1(gf(kickf,snaref,hihatf,bassf,padf));
+add1(gf(kickf,snaref,hihatf));
+add1(gf(kickf,snaref,hihatf,bassf));
+add1(gf(kickf,snaref,hihatf));
+{% endhighlight %}
+
+Here's how it sounds:
+
+> <iframe width="500" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/227050962&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_artwork=false"></iframe>
+
+Here is the complete code:
+
+> [Groove.pde](https://github.com/ycpcs/fys100-fall2015/blob/gh-pages/examples/Groove.pde)
