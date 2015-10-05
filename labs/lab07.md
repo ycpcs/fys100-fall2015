@@ -45,7 +45,7 @@ Note that because equal temperament only tells us how to move between notes, we 
 
 ### Scales
 
-If you've ever sat down at a piano or keyboard and played random keys, you've probably noticed that it doesn't sound very good.  This is because most western music uses notes selected from a *scale*.  Typically, a scale includes exactly 7 notes.  Scales are defined by specifying a pattern of how many semitones there are between notes.  The important thing to realize about scales is that the number of semitones to reach the next note is not always 1!
+If you've ever sat down at a piano or keyboard and played random keys, you've probably noticed that it doesn't sound very good.  This is because most western music uses notes selected from a *scale*.  Typically, a scale includes exactly 7 notes (and variations in lower and higher octaves).  Scales are defined by specifying a pattern of how many semitones there are between notes, starting at the root note of the scale.  The important thing to realize about scales is that the number of semitones to reach the next note is not always 1!
 
 A major scale uses the following pattern of semitones:
 
