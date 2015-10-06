@@ -26,7 +26,7 @@ Sep 24 | Visual art: Presentations | Presentations | [Day 8](agenda/day08.html)
 Sep 29 | Music: What is sound? What is music? | [Lab 5](labs/lab05.html) | [Day 9](agenda/day09.html) | See agenda
 Oct 1 | Music: Rhythm patterns | [Lab 6](labs/lab06.html) | [Day 10](agenda/day10.html)
 Oct 6 | Music: Melody, basic music theory | [Lab 7](labs/lab07.html) | [Day 11](agenda/day11.html)
-Oct 8 | Music: Composition | [Lab 8](labs/lab08.html)
+Oct 8 | Music: Composition | [Lab 8](labs/lab08.html) | [Day 12](agenda/day12.html)
 Oct 13 | Music: Random music? | [Lab 9](labs/lab09.html)
 Oct 15 | Music: Discussion day | Discussion
 Oct 20 | Fall break, no class
