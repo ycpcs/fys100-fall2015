@@ -255,7 +255,7 @@ void registerCustomInstruments(Player player) {
         params.put(ParamNames.GLIDE_TIME_MS, 80.0f);
         SynthToolkit tk = SynthToolkitBuilder.start()
           .withWaveVoice(Buffer.SAW)
-          .withOnOffNoteEnvelope()
+          .withASRNoteEnvelope()
           .getTk();
         MonoSynthUGen2 u = new MonoSynthUGen2(ac, tk, params,
           new double[]{ 1.0, 1.5, 2.0 },
@@ -329,7 +329,7 @@ add1(gf(kickf,snaref,hihatf));
 
 Here's how it sounds (lead starts at about 0:33):
 
-> <iframe width="500" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/227050962&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_artwork=false"></iframe>
+> <iframe width="500" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/227153336&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_artwork=false"></iframe>
 
 Here is the complete code:
 

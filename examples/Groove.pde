@@ -198,7 +198,7 @@ void registerCustomInstruments(Player player) {
         params.put(ParamNames.GLIDE_TIME_MS, 80.0f);
         SynthToolkit tk = SynthToolkitBuilder.start()
           .withWaveVoice(Buffer.SAW)
-          .withOnOffNoteEnvelope()
+          .withASRNoteEnvelope()
           .getTk();
         MonoSynthUGen2 u = new MonoSynthUGen2(ac, tk, params,
           new double[]{ 1.0, 1.5, 2.0 },
