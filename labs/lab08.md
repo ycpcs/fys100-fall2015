@@ -213,7 +213,7 @@ Melody lead2m = m(
 Figure lead2f = f(lead2r, lead2m, lead);
 {% endhighlight %}
 
-Also, we'll add an [arpeggiated](https://en.wikipedia.org/wiki/Arpeggio) bass pattern, to join in after two measures of playing the second lead:
+Also, we'll add an [arpeggiated](https://en.wikipedia.org/wiki/Arpeggio) bass pattern, to join in after four measures of playing the second lead:
 
 {% highlight java %}
 Rhythm bass2r = r(
