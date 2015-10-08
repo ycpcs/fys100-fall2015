@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Lab 11: Find the places"
+title: "Lab 11: Word mining"
 ---
 
 # Learning goals

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Lab 10: Sample Playback"
+title: "Lab 14: Light Sensor"
 ---
 
 # Learning goals

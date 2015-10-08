@@ -27,23 +27,23 @@ Sep 29 | Music: What is sound? What is music? | [Lab 5](labs/lab05.html) | [Day 
 Oct 1 | Music: Rhythm patterns | [Lab 6](labs/lab06.html) | [Day 10](agenda/day10.html)
 Oct 6 | Music: Melody, basic music theory | [Lab 7](labs/lab07.html) | [Day 11](agenda/day11.html)
 Oct 8 | Music: Composition | [Lab 8](labs/lab08.html) | [Day 12](agenda/day12.html)
-Oct 13 | Music: Random music? | [Lab 9](labs/lab09.html)
-Oct 15 | Music: Discussion day | Discussion
+Oct 13 | Music: Random music? | [Lab 9](labs/lab09.html) | [Day 13](agenda/day13.html)
+Oct 15 | Music: Sample playback | [Lab 10](lab10.html) | 
 Oct 20 | Fall break, no class
-Oct 22 | Music: Presentations | Presentations
-Oct 27 | Humanities: Digital humanities
-Oct 29 | Humanities: Analyzing text and language | [Lab 10](labs/lab10.html)
-Nov 3 | Humanities: Real and virtual spaces | [Lab 11](labs/lab11.html)
-Nov 5 | Humanities: Discussion day | Discussion
-Nov 10 | Humanities: Presentations | Presentations
-Nov 12 | The YCP General Education Curriculum
-Nov 17 | Science: Modeling and simulation | [Lab 12](labs/lab12.html)
-Nov 19 | Science: Measuring the physical world | [Lab 13](labs/lab13.html)
-Nov 24 | Science: Discussion day | Discussion
+Oct 22 | Music: Work day
+Oct 27 | Music: Discussion day | Discussion
+Oct 29 | Music: Presentations | Presentations
+Nov 3 | Humanities: Digital humanities
+Nov 5 | Humanities: Analyzing text and language | [Lab 11](labs/lab11.html)
+Nov 10 | Humanities: Real and virtual spaces | [Lab 12](labs/lab12.html)
+Nov 12 | Humanities: Discussion day | Discussion
+Nov 17 | The YCP General Education Curriculum
+Nov 19 | Humanities: Presentations | Presentations
+Nov 24 | Science: Modeling and simulation | [Lab 13](labs/lab13.html)
 Nov 26 | Thanksgiving vacation, no class
-Dec 1 | Science: Presentations | Presentations
-Dec 3 | Society: TBD
-Dec 8 | Society: TBD
+Dec 1 | Science: Measuring the physical world | [Lab 14](labs/lab14.html)
+Dec 3 | Science: Discussion day | Discussion
+Dec 8 | Science: Presentations | Presentations
 Dec 10 | Society: TBD
 Dec 15 | Society: TBD
 
