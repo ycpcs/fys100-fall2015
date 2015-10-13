@@ -343,7 +343,7 @@ void draw() {
 }
 
 void mouseClicked() {
-  randomSeed(456); // <-- change this to get a different "random" composition
+  randomSeed(123); // <-- change this to get a different "random" composition
   c = new MyComp();
   c.create();
   fws.play(c);
