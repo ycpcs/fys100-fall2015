@@ -5,7 +5,7 @@ title: "Day 13 Agenda"
 
 # Agenda
 
-On day 12 we will work on [Lab 9](../labs/lab09.html).
+On day 13 we will work on [Lab 9](../labs/lab09.html).
 
 ## Get Ready
 
