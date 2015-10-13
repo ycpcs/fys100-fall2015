@@ -27,6 +27,8 @@ You can also add some new figures.
 
 See what you can come up with!
 
+Note that each time you click to start playing, the code for the generated rhythms and melodies used in all randomly generated melodic and percussion figures is printed to the program output view.  If you like the way that any of the generated figures sound, you can copy them.  This could be a source of material for your composition.
+
 ## Random music
 
 As we've seen in the previous labs, music can be reduced to patterns: start beats, durations, and note numbers.  There is no reason why these patterns can't be created by a program rather than a person.  Music created by a program can be considered *generative art* in the same sense as [fractals](lab03.html) in visual art.
