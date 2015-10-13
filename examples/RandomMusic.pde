@@ -4,7 +4,7 @@ import net.beadsproject.beads.data.*;
 
 // You may need to change this, depending on which drive letter
 // is assigned to your USB flash drive.
-final String SOUNDFONT_DIR = "/home/dhovemey/SoundFonts";
+final String SOUNDFONT_DIR = "D:/SoundFonts";
 
 // Some good percussion soundfonts
 final String TR808 = SOUNDFONT_DIR + "/tr808/Roland_TR-808_batteria_elettronica.sf2";
@@ -148,9 +148,6 @@ class MyComp extends Composer {
     add1(gf());
   }
   
-  void randomComp(Object... spec) {
-  }
-  
   Rhythm randomRhythm(double[][] prob, boolean allowOverlap) {
     Rhythm result = r();
     
@@ -242,7 +239,10 @@ class MyComp extends Composer {
       measureFigs[i] = randf;
     }
     
-    return gf(measureFigs);
+    Figure result = gf(measureFigs);
+    println("// Melodic figure:");
+    printFigureRhythmAndMelody(result);
+    return result;
   }
   
   Figure randomPercussionFigure(double[][] prob, int numMeasures, Instrument instrument, int note) {
@@ -256,7 +256,75 @@ class MyComp extends Composer {
       measureFigs[i] = randf;
     }
     
-    return gf(measureFigs);
+    Figure result = gf(measureFigs);
+    println("// Percussion figure:");
+    printFigureRhythmAndMelody(result);
+    return result;
+  }
+
+  void printRhythm(Rhythm r) {
+    print("r(");
+
+    for (int i = 0; i < r.size(); i++) {
+      Strike s = r.get(i);
+      if (i > 0) {
+        print(",");
+      }
+      System.out.printf("s(%.3f,%.3f,%d)", ustob(s.getStartUs()), ustob(s.getDurationUs()), s.getVelocity());
+    }
+
+    print(")");
+  }
+  
+  double ustob(double us) {
+    return getComposition().getTempo().usToBeat((long)us);
+  }
+
+  void printMelody(Melody m) {
+    print("m(");
+    
+    for (int i = 0; i < m.size(); i++) {
+      if (i > 0) {
+        print(",");
+      }
+      Chord c = m.get(i);
+      print("an(");
+      for (int j = 0; j < c.size(); j++) {
+        if (j > 0) {
+          print(",");
+        }
+        print(c.get(j));
+      }
+      print(")");
+    }
+    
+    print(")");
+  }
+  
+  void printFigureRhythmAndMelody(Figure fig) {
+    println("Rhythm rhythm = gr(");
+    boolean firstR = true;
+    for (SimpleFigure sf : fig) {
+      if (!firstR) {
+        print(", ");
+      } else {
+        firstR = false;
+      }
+      printRhythm(sf.getRhythm());
+    }
+    println("\n);");
+    
+    println("Melody melody = gm(");
+    boolean firstM = true;
+    for (SimpleFigure sf : fig) {
+      if (!firstM) {
+        print(", ");
+      } else {
+        firstM = false;
+      }
+      printMelody(sf.getMelody());
+    }
+    println("\n);");
   }
 }
 
@@ -275,7 +343,7 @@ void draw() {
 }
 
 void mouseClicked() {
-  randomSeed(123); // <-- change this to get a different "random" composition
+  randomSeed(456); // <-- change this to get a different "random" composition
   c = new MyComp();
   c.create();
   fws.play(c);
