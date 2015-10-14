@@ -75,7 +75,13 @@ Now, we need a sample.  I used a brief clip from a [1950s instructional film](ht
 
 > <iframe width="600" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228416624&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
-I saved this clip as a WAV file called `knowtherules.wav`.  My program defines a `SAMPLE_DIR` variable that serves the same purpose as the `SOUNDFONT_DIR` variable, to locate files (in this case samples) needed to play the composition:
+You can download this clip from the following link:
+
+> [knowtherules.wav](https://drive.google.com/a/ycp.edu/file/d/0Bz83qbgNYuDXMlZPZnZsX0tjMVk/view?usp=sharing)
+
+Note that you will need to be logged into your YCP account to access this download.
+
+I saved this clip in a folder called `Samples` in the same place as my `SoundFonts` folder.  My program defines a `SAMPLE_DIR` variable that serves the same purpose as the `SOUNDFONT_DIR` variable, to locate files (in this case samples) needed to play the composition:
 
 {% highlight java %}
 final String SAMPLE_DIR = "D:/Samples";
