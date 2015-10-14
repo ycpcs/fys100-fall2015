@@ -28,9 +28,9 @@ Oct 1 | Music: Rhythm patterns | [Lab 6](labs/lab06.html) | [Day 10](agenda/day1
 Oct 6 | Music: Melody, basic music theory | [Lab 7](labs/lab07.html) | [Day 11](agenda/day11.html)
 Oct 8 | Music: Composition | [Lab 8](labs/lab08.html) | [Day 12](agenda/day12.html)
 Oct 13 | Music: Random music? | [Lab 9](labs/lab09.html) | [Day 13](agenda/day13.html)
-Oct 15 | Music: Sample playback | [Lab 10](labs/lab10.html) | 
+Oct 15 | Music: Sample playback | [Lab 10](labs/lab10.html) | [Day 14](agenda/day14.html)
 Oct 20 | Fall break, no class
-Oct 22 | Music: Work day
+Oct 22 | Music: Work day | Work day | [Day 15](agenda/day15.html)
 Oct 27 | Music: Discussion day | Discussion
 Oct 29 | Music: Presentations | Presentations
 Nov 3 | Humanities: Digital humanities
