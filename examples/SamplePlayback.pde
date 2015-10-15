@@ -155,8 +155,8 @@ void draw() {
 }
 
 void mouseClicked() {
-  //fws.play(c);
-  fws.saveWaveFile(c, "/home/dhovemey/drum+bass+knowtherules.wav");
+  fws.play(c);
+  //fws.saveWaveFile(c, "/home/dhovemey/drum+bass+knowtherules.wav");
 }
 
 void registerCustomInstruments(Player player) {
