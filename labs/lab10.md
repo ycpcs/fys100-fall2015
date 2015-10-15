@@ -131,7 +131,7 @@ Here's how it sounds:
 
 > <iframe width="600" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/228417950&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
-Playing an entire sample is fun, but we can even more fun if we play only parts of the samples.  One possibility is to play part of a sample repeatedly, creating a "stuttering" effect.  Another possibility is to mix up the sample by playing parts of it in a different order.  Here are a few figures that demonstrate both techniques:
+Playing an entire sample is fun, but we can have even more fun if we play only parts of the samples.  One possibility is to play part of a sample repeatedly, creating a "stuttering" effect.  Another possibility is to mix up the sample by playing parts of it in a different order.  Here are a few figures that demonstrate both techniques:
 
 {% highlight java %}
 // "stutter" figure with just "know the rules" repeated several times
