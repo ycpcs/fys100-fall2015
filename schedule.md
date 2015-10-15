@@ -31,12 +31,12 @@ Oct 13 | Music: Random music? | [Lab 9](labs/lab09.html) | [Day 13](agenda/day13
 Oct 15 | Music: Sample playback | [Lab 10](labs/lab10.html) | [Day 14](agenda/day14.html)
 Oct 20 | Fall break, no class
 Oct 22 | Music: Work day | Work day | [Day 15](agenda/day15.html)
-Oct 27 | Music: Discussion day | Discussion
+Oct 27 | Music: Discussion day | Discussion | [Day 16](agenda/day16.html) | Watch the [IAMUS / MELOMICS documentary](https://www.youtube.com/watch?v=ETGDbWvWCbM)
 Oct 29 | Music: Presentations | Presentations
 Nov 3 | Humanities: Digital humanities
 Nov 5 | Humanities: Analyzing text and language | [Lab 11](labs/lab11.html)
 Nov 10 | Humanities: Real and virtual spaces | [Lab 12](labs/lab12.html)
-Nov 12 | Humanities: Discussion day | Discussion
+Nov 12 | Humanities: Discussion day | Discussion |
 Nov 17 | The YCP General Education Curriculum
 Nov 19 | Humanities: Presentations | Presentations
 Nov 24 | Science: Modeling and simulation | [Lab 13](labs/lab13.html)
