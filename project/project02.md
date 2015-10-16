@@ -35,15 +35,18 @@ Write a Processing program to create a music composition.  Your composition shou
 
 At a minimum, your composition should include melodic figures, and should have an overall structure.  I would encourage you to consider adding the following optional elements:
 
+* Audio effects (see [Lab 5](../labs/lab05.html)
 * Percussion figures (see [Lab 6](../labs/lab06.html))
 * Randomly-generated rhythms and figures (see [Lab 9](../labs/lab09.html))
 * Samples (see [Lab 10](../labs/lab10.html))
+
+Please note that I do not want you to treat these features as a laundry list: I expect that for any element you incorporate into the composition, you have a specific artistic motivation for including it.
 
 Submit your program by uploading it to your shared Google Drive folder.  Your program is a file that has a ".pde" file extension.  You can upload a file to a Google Drive folder by clicking **New**, choosing **File upload**, and then selecting the file you want to upload.
 
 ## The reflection
 
-Your reflection is an essay that addresses the following topics.
+Your reflection is an essay (not a bulleted list!) that addresses the following topics.
 
 *Introduction.*   What were you trying to achieve in creating your composition?
 
@@ -59,13 +62,13 @@ Your reflection is an essay that addresses the following topics.
 
 Your reflection should be *at least* two pages in length.  (Two pages is a minimuim, and I would expect that it is more likely that three or more pages will be necessary.)  You should strive to be clear and concise.
 
-Create your reflection documents using Google Docs in the shared **Project 1** folder (see above).  The reflection *draft* should be called **Relection (Draft)**.  The final version should be called **Reflection (Final)**.  You can create the final document by making a copy of the draft.
+Create your reflection documents using Google Docs in the shared **Project 2** folder (see above).  The reflection *draft* should be called **Relection (Draft)**.  The final version should be called **Reflection (Final)**.  You can create the final document by making a copy of the draft.
 
 *Proofread your reflection carefully*.  I will make comments on the draft (so you can use the feedback for your final version), but it is your responsibility to check your work carefully for spelling and grammar errors.
 
 # Grading
 
-The overall project is worth 100 points.
+The overall project is worth up to 100 points.
 
 The program is worth up to 40 points, and the reflection up to 60.
 
@@ -77,11 +80,11 @@ For the program:
 
 For the reflection:
 
-* Introduction: up to X points
-* Discussion of creative process: up to X points
-* Discussion of structure and organization: up to X points
-* Discussion of ways in which the composition succeeded: up to X points
-* Discussion of ways in which the composition could be improved: up to X points
-* Conclusions: up to X points
+* Introduction: up to 6 points
+* Discussion of creative process: up to 12 points
+* Discussion of structure and organization: up to 12 points
+* Discussion of ways in which the composition succeeded: up to 12 points
+* Discussion of ways in which the composition could be improved: up to 12 points
+* Conclusions: up to 6 points
 
 To earn a higher grade for the reflection, you should express yourself clearly and concisely, and your writing should offer some deep insights into the creative process.

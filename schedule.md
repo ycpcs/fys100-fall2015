@@ -31,7 +31,7 @@ Oct 13 | Music: Random music? | [Lab 9](labs/lab09.html) | [Day 13](agenda/day13
 Oct 15 | Music: Sample playback | [Lab 10](labs/lab10.html) | [Day 14](agenda/day14.html)
 Oct 20 | Fall break, no class
 Oct 22 | Music: Work day | Work day | [Day 15](agenda/day15.html)
-Oct 27 | Music: Discussion day | Discussion | [Day 16](agenda/day16.html) | Watch the [IAMUS / MELOMICS documentary](https://www.youtube.com/watch?v=ETGDbWvWCbM)
+Oct 27 | Music: Discussion day | Discussion | [Day 16](agenda/day16.html) |  [Guardian1Jul12](http://www.theguardian.com/music/2012/jul/01/iamus-computer-composes-classical-music), [IAMUSDocumentary](https://www.youtube.com/watch?v=ETGDbWvWCbM), [0musicPlaylist](https://www.youtube.com/watch?v=SxvV5zn7e9s)
 Oct 29 | Music: Presentations | Presentations
 Nov 3 | Humanities: Digital humanities
 Nov 5 | Humanities: Analyzing text and language | [Lab 11](labs/lab11.html)
@@ -47,12 +47,15 @@ Dec 8 | Science: Presentations | Presentations
 Dec 10 | Society: TBD
 Dec 15 | Society: TBD
 
-Readings:
+Readings/Videos/Media:
 
 * NYTEd30Jul15: [Advice for New Students From Those Who Know (Older Students)](http://www.nytimes.com/2015/08/02/education/edlife/advice-for-new-students-from-those-who-know-old-students.html), New York Times, July 30th, 2015
 * Lahey15: Jessica Lahey, [When Success Leads to Failure](http://www.theatlantic.com/education/archive/2015/08/when-success-leads-to-failure/400925/), The Atlantic, August 11th, 2015
 * Noll67: A. Michael Noll, [The digital computer as a creative medium](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5217127), IEEE Spectrum, Volume 4, Issue 10, Oct 1967 (Note that you will need to download this article from campus)
 * ShiffmanNOCCh8: Daniel Shiffman, [The Nature of Code, Chapter 8](http://natureofcode.com/book/chapter-8-fractals/)
+* IAMUSDocumentary: [IAMUS / MELOMICS documentary](https://www.youtube.com/watch?v=ETGDbWvWCbM)
+* Guardian1Jul12: [Iamus, classical music's computer composer, live from Malaga](http://www.theguardian.com/music/2012/jul/01/iamus-computer-composes-classical-music), Philip Ball, in The Guardian, July 1st, 2012
+* 0musicPlaylist: [0music](https://www.youtube.com/watch?v=SxvV5zn7e9s)
 
 <!--
 Sep 1  |
