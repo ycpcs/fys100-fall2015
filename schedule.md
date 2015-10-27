@@ -32,7 +32,7 @@ Oct 15 | Music: Sample playback | [Lab 10](labs/lab10.html) | [Day 14](agenda/da
 Oct 20 | Fall break, no class
 Oct 22 | Music: Work day | Work day | [Day 15](agenda/day15.html)
 Oct 27 | Music: Discussion day | Discussion | [Day 16](agenda/day16.html) |  [Guardian1Jul12](http://www.theguardian.com/music/2012/jul/01/iamus-computer-composes-classical-music), [IAMUSDocumentary](https://www.youtube.com/watch?v=ETGDbWvWCbM), [0musicPlaylist](https://www.youtube.com/watch?v=SxvV5zn7e9s)
-Oct 29 | Music: Presentations | Presentations
+Oct 29 | Music: Presentations | Presentations | [Day 17](agenda/day17.html)
 Nov 3 | Humanities: Digital humanities
 Nov 5 | Humanities: Analyzing text and language | [Lab 11](labs/lab11.html)
 Nov 10 | Humanities: Real and virtual spaces | [Lab 12](labs/lab12.html)
