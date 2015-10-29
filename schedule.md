@@ -33,7 +33,7 @@ Oct 20 | Fall break, no class
 Oct 22 | Music: Work day | Work day | [Day 15](agenda/day15.html)
 Oct 27 | Music: Discussion day | Discussion | [Day 16](agenda/day16.html) |  [Guardian1Jul12](http://www.theguardian.com/music/2012/jul/01/iamus-computer-composes-classical-music), [IAMUSDocumentary](https://www.youtube.com/watch?v=ETGDbWvWCbM), [0musicPlaylist](https://www.youtube.com/watch?v=SxvV5zn7e9s)
 Oct 29 | Music: Presentations | Presentations | [Day 17](agenda/day17.html)
-Nov 3 | Humanities: Digital humanities
+Nov 3 | Humanities: Digital humanities | Discussion | [Day 18](agenda/day18.html) | [NYTArts17Nov10](http://www.nytimes.com/2010/11/17/arts/17digital.html)
 Nov 5 | Humanities: Analyzing text and language | [Lab 11](labs/lab11.html)
 Nov 10 | Humanities: Real and virtual spaces | [Lab 12](labs/lab12.html)
 Nov 12 | Humanities: Discussion day | Discussion |
@@ -56,6 +56,7 @@ Readings/Videos/Media:
 * IAMUSDocumentary: [IAMUS / MELOMICS documentary](https://www.youtube.com/watch?v=ETGDbWvWCbM)
 * Guardian1Jul12: [Iamus, classical music's computer composer, live from Malaga](http://www.theguardian.com/music/2012/jul/01/iamus-computer-composes-classical-music), Philip Ball, in The Guardian, July 1st, 2012
 * 0musicPlaylist: [0music](https://www.youtube.com/watch?v=SxvV5zn7e9s)
+* NYTArts17Nov10: [Digital Keys for Unlocking the Humanities’ Riches](http://www.nytimes.com/2010/11/17/arts/17digital.html), New York Times, Nov 17th, 2010
 
 <!--
 Sep 1  |
