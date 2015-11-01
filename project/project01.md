@@ -83,7 +83,7 @@ For the program:
 For the reflection:
 
 * Introduction: up to 5 points
-* Discussion of creative process: up to 15 points
+* Discussion of creative process: up to 20 points
 * Discussion of ways in which the composition succeeded: up to 15 points
 * Discussion of ways in which the composition could be improved: up to 15 points
 * Conclusions: up to 5 points
