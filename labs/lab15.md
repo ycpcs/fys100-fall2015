@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Lab 13: Find the places"
+title: "Lab 15: Light Sensor"
 ---
 
 # Learning goals

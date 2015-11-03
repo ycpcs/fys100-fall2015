@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Lab 12: Find the places"
+title: "Lab 12: N-Grams"
 ---
 
 # Learning goals

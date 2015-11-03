@@ -33,15 +33,15 @@ Oct 20 | Fall break, no class
 Oct 22 | Music: Work day | Work day | [Day 15](agenda/day15.html)
 Oct 27 | Music: Discussion day | Discussion | [Day 16](agenda/day16.html) |  [Guardian1Jul12](http://www.theguardian.com/music/2012/jul/01/iamus-computer-composes-classical-music), [IAMUSDocumentary](https://www.youtube.com/watch?v=ETGDbWvWCbM), [0musicPlaylist](https://www.youtube.com/watch?v=SxvV5zn7e9s)
 Oct 29 | Music: Presentations | Presentations | [Day 17](agenda/day17.html)
-Nov 3 | Humanities: Digital humanities | Discussion | [Day 18](agenda/day18.html) | [NYTArts17Nov10](http://www.nytimes.com/2010/11/17/arts/17digital.html)
-Nov 5 | Humanities: Analyzing text and language | [Lab 11](labs/lab11.html)
-Nov 10 | Humanities: Real and virtual spaces | [Lab 12](labs/lab12.html)
+Nov 3 | Humanities: Digital humanities | [Lab 11](labs/lab11.html) | [Day 18](agenda/day18.html) | [NYTArts17Nov10](http://www.nytimes.com/2010/11/17/arts/17digital.html)
+Nov 5 | Humanities: Analyzing text and language | [Lab 12](labs/lab11.html)
+Nov 10 | Humanities: Real and virtual spaces | [Lab 13](labs/lab12.html)
 Nov 12 | Humanities: Discussion day | Discussion |
 Nov 17 | The YCP General Education Curriculum
 Nov 19 | Humanities: Presentations | Presentations
-Nov 24 | Science: Modeling and simulation | [Lab 13](labs/lab13.html)
+Nov 24 | Science: Modeling and simulation | [Lab 14](labs/lab13.html)
 Nov 26 | Thanksgiving vacation, no class
-Dec 1 | Science: Measuring the physical world | [Lab 14](labs/lab14.html)
+Dec 1 | Science: Measuring the physical world | [Lab 15](labs/lab14.html)
 Dec 3 | Science: Discussion day | Discussion
 Dec 8 | Science: Presentations | Presentations
 Dec 10 | Society: TBD

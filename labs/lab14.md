@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Lab 14: Light Sensor"
+title: "Lab 14: Outbreak"
 ---
 
 # Learning goals
