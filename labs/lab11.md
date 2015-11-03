@@ -38,7 +38,7 @@ Run the program.  You should see the following window (click for full size):
 
 > <a href="img/textminer.png"><img alt="TextMiner screenshot" style="width: 323px;" src="img/textminer.png"></a>
 
-This program allows you to do some very basic analysis of word usage in a text.  Start by downloading a text from the [Project Gutenberg](https://www.gutenberg.org/) website, which is a repository of public domain books.  Make sure that you choose the **Plain Text UTF-8** download.  For example, I chose [Mansfield Park](https://www.gutenberg.org/ebooks/141) by Jane Austen.  When you save the text, save it using a folder and filename you will remember: I saved files in a `Texts` folder in my `H:` drive, and saved the file as `mansfieldpark.txt`.
+This program allows you to do some very basic analysis of word usage in a text.  Start by downloading a text from the [Project Gutenberg](https://www.gutenberg.org/) website, which is a repository of public domain books.  Make sure that you choose the **Plain Text UTF-8** download.  For example, I chose [Mansfield Park](https://www.gutenberg.org/ebooks/141) by Jane Austen.  When you save the text, save it using a folder and filename you will remember: I saved files in a `Text` folder in my `H:` drive, and saved the file as `mansfieldpark.txt`.
 
 Start by entering the filename of the text you want to analyze in the `FILENAME` box (click for full size):
 
@@ -62,4 +62,28 @@ Note that there are a few quirks:
 
 ## Experiment
 
-Yeah.
+Think of a hypothesis about literary works available from Project Gutenberg that can be tested by analyzing word frequencies.
+
+Here is an example:
+
+> Dickens's later novels are "darker" than his earlier novels, so words evoking darkness or sadness should be relatively more frequent in his later works that his earlier works
+
+Let's test this hypothesis by comparing word usage in The Pickwick Papers (1836) with Great Expectations (1860).
+
+First, these are the total word counts for each novel:
+
+> Book | Word count
+> ---- | ----------
+> The Pickwick Papers | 301,948
+> Great Expectations | 187,364
+
+Let's look for occurrences of the words "dark" and "sad"/"sadness".  Note that we don't want to compare the absolute numbers of occurrences, since the two novels have different numbers of words.  Instead, we'll compare the occurrence frequency of the words we're interested in by dividing the occurrence count by the total number of words.
+
+> Book | "Dark" | "Dark" freq. | "Sad" or "sadness" | "Sad" or "sadness" freq.
+> ---- | ------ | ------------ | ------------------ | ------------------------
+> The Pickwick Papers | 64 | .000211 | 7 | .000023
+> Great Expectations | 68 | .000362 | 5 | .000026
+
+The word "dark" appears much more frequently in Great Expectations than The Pickwick Papers, supporting our hypothesis.  The words "sad" and "sadness" occur with about the same frequency in each novel.
+
+Create a document called `Text mining experiment` in your shared Google Drive folder.  State your hypothesis and record data to test your hypothesis.  Finally, analyze the data and state whether or not it supports your hypothesis.

@@ -163,7 +163,7 @@ void topN(int n) {
 
 public void occurrences(int theValue) {
   String fname = filename.getText();
-  final String wordToFind = word.getText();
+  final String wordToFind = word.getText().toLowerCase();
   final int[] occur = new int[1];
   try {
     analyze(fname, new Callback() {
