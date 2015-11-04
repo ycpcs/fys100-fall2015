@@ -24,6 +24,10 @@ $color5: #4c3957;
 	margin-bottom: 30px;
 }
 
+body.nonfree #header {
+	background: #eebbcc;
+}
+
 #header a {
 	text-decoration: none;
 }
@@ -41,6 +45,10 @@ $color5: #4c3957;
 	border-top: 2px solid #4c3957;
 	border-bottom: 2px solid #4c3957;
 	background: #76b9fc;
+}
+
+body.nonfree #footer {
+	background: #eebbcc;
 }
 
 #subtitle {

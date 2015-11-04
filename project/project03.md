@@ -1,9 +1,9 @@
 ---
 layout: nonfree
-title: "Unit Project 3: Ngrams"
+title: "Unit Project 3: Humanities"
 ---
 
-Acknowledgment: This project was originally created by [Andrea Arpaci-Dusseau](http://pages.cs.wisc.edu/~dusseau/Classes/CS202H-F12/Assignments/hw5) at the [University of Wisconsin-Madison](http://www.wisc.edu/), adapted by [Charlie Peck](http://www.earlham.edu/profile/?id=11977&r=3786&disp=True) of [Earlham College](http://www.earlham.edu), and further adapted by [David Hovemeyer](http://faculty.ycp.edu/~dhovemey).
+Acknowledgment: This project was [originally created](http://pages.cs.wisc.edu/~dusseau/Classes/CS202H-F12/Assignments/hw5) by [Andrea Arpaci-Dusseau](http://pages.cs.wisc.edu/~dusseau/) at the [University of Wisconsin-Madison](http://www.wisc.edu/), adapted by [Charlie Peck](http://www.earlham.edu/profile/?id=11977&r=3786&disp=True) of [Earlham College](http://www.earlham.edu), and further adapted by [David Hovemeyer](http://faculty.ycp.edu/~dhovemey).
 
 # Deliverables / due dates
 
