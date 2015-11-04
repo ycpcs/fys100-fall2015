@@ -34,7 +34,7 @@ Oct 22 | Music: Work day | Work day | [Day 15](agenda/day15.html)
 Oct 27 | Music: Discussion day | Discussion | [Day 16](agenda/day16.html) |  [Guardian1Jul12](http://www.theguardian.com/music/2012/jul/01/iamus-computer-composes-classical-music), [IAMUSDocumentary](https://www.youtube.com/watch?v=ETGDbWvWCbM), [0musicPlaylist](https://www.youtube.com/watch?v=SxvV5zn7e9s)
 Oct 29 | Music: Presentations | Presentations | [Day 17](agenda/day17.html)
 Nov 3 | Humanities: Digital humanities | [Lab 11](labs/lab11.html) | [Day 18](agenda/day18.html) | [NYTArts17Nov10](http://www.nytimes.com/2010/11/17/arts/17digital.html)
-Nov 5 | Humanities: Analyzing text and language | [Lab 12](labs/lab12.html) | [Day 19](agenda/day19.html)
+Nov 5 | Humanities: Analyzing text and language | [Lab 12](labs/lab12.html) | [Day 19](agenda/day19.html) | [MichelAidenTEDJul2011](https://www.ted.com/talks/what_we_learned_from_5_million_books?language=en#t-512521)
 Nov 10 | Humanities: Real and virtual spaces | [Lab 13](labs/lab13.html)
 Nov 12 | Humanities: Discussion day | Discussion |
 Nov 17 | The YCP General Education Curriculum
@@ -57,6 +57,7 @@ Readings/Videos/Media:
 * Guardian1Jul12: [Iamus, classical music's computer composer, live from Malaga](http://www.theguardian.com/music/2012/jul/01/iamus-computer-composes-classical-music), Philip Ball, in The Guardian, July 1st, 2012
 * 0musicPlaylist: [0music](https://www.youtube.com/watch?v=SxvV5zn7e9s)
 * NYTArts17Nov10: [Digital Keys for Unlocking the Humanities’ Riches](http://www.nytimes.com/2010/11/17/arts/17digital.html), New York Times, Nov 17th, 2010
+* MichelAidenTEDJul2011: [What we learned from 5 million books](https://www.ted.com/talks/what_we_learned_from_5_million_books?language=en#t-512521), TEDxBoston 2011
 
 <!--
 Sep 1  |

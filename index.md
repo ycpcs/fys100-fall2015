@@ -22,6 +22,7 @@ Welcome to the FYS 100.139 home page!  All of the information about the course w
 
 ## News
 
+* **Nov 4** &mdash; [Unit Project 3](project/project03.html) has been posted.  See description for deliverables and due dates.
 * **Nov 3** &mdash; [Writing Assignment 2](assign/assign02.html) has been posted.  See description for deliverables and due dates.
 * **Oct 16** &mdash; [Unit Project 2](project/project02.html) has been posted.  See the description for deliverables and due dates.  Also, the [Schedule](schedule.html) has been updated with information about the discussion topics for the music unit: see the [Day 16](agenda/day16.html) agenda.
 * **Oct 8** &mdash; The [Schedule](schedule.html) has been updated.
