@@ -12,7 +12,7 @@ This project has the following deliverables:
 
 The program and reflection draft are due on **Friday, Oct 30th**.
 
-The final version of the reflection are due on **Friday, Nov 6th**.
+The final version of the reflection are due on **Monday, Nov 9th**.
 
 The deliverables are described in the "What to do" section below.
 
