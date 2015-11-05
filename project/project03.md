@@ -64,3 +64,5 @@ the following:
 > * Why do you think some of the ngrams are more popular than others? 
 > * How does the popularity of each ngram correlate with what was going on in the real world? 
 > * What information from the other sources do you have to back up your speculations?
+
+Your essay should be at least two pages in length (double spaced).
