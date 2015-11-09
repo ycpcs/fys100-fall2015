@@ -35,8 +35,8 @@ Oct 27 | Music: Discussion day | Discussion | [Day 16](agenda/day16.html) |  [Gu
 Oct 29 | Music: Presentations | Presentations | [Day 17](agenda/day17.html)
 Nov 3 | Humanities: Digital humanities | [Lab 11](labs/lab11.html) | [Day 18](agenda/day18.html) | [NYTArts17Nov10](http://www.nytimes.com/2010/11/17/arts/17digital.html)
 Nov 5 | Humanities: Analyzing text and language | [Lab 12](labs/lab12.html) | [Day 19](agenda/day19.html) | [MichelAidenTEDJul2011](https://www.ted.com/talks/what_we_learned_from_5_million_books?language=en#t-512521)
-Nov 10 | Humanities: Real and virtual spaces | [Lab 13](labs/lab13.html)
-Nov 12 | Humanities: Discussion day | Discussion |
+Nov 10 | Humanities: Mapping literature and history | [Lab 13](labs/lab13.html) | [Day 20](agenda/day20.html)
+Nov 12 | Humanities: Discussion day | Discussion | [Day 21](agenda/day21.html)
 Nov 17 | The YCP General Education Curriculum
 Nov 19 | Humanities: Presentations | Presentations
 Nov 24 | Science: Modeling and simulation | [Lab 14](labs/lab14.html)
