@@ -18,4 +18,6 @@ Based on your experiences working on [Lab 13](../labs/lab13.html), think about t
 * Do you think tools like Google Maps enable us to learn things about literature and history that wouldn't be possible otherwise?  If so, what?  If not, why not?
 * What are the limitations of Google Maps for studying literature, history, etc.?  Do you think these limitations can be overcome in the future as tools like Google Maps become more powerful?  What features do you think Google Maps should have in order to be more useful?
 
+Save your answers to these questions in a document called **Humanities Discussion Questions** in your shared Google Drive folder.
+
 <div class="clear"></div>
