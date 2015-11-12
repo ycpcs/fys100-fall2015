@@ -37,7 +37,7 @@ Nov 3 | Humanities: Digital humanities | [Lab 11](labs/lab11.html) | [Day 18](ag
 Nov 5 | Humanities: Analyzing text and language | [Lab 12](labs/lab12.html) | [Day 19](agenda/day19.html) | [MichelAidenTEDJul2011](https://www.ted.com/talks/what_we_learned_from_5_million_books?language=en#t-512521)
 Nov 10 | Humanities: Mapping literature and history | [Lab 13](labs/lab13.html) | [Day 20](agenda/day20.html)
 Nov 12 | Humanities: Discussion day | Discussion | [Day 21](agenda/day21.html)
-Nov 17 | The YCP General Education Curriculum
+Nov 17 | The YCP General Education Curriculum | Discussion | [Day 22](agenda/day22.html) | [GenNext](http://www.ycp.edu/academics/gen-next/)
 Nov 19 | Humanities: Presentations | Presentations
 Nov 24 | Science: Modeling and simulation | [Lab 14](labs/lab14.html)
 Nov 26 | Thanksgiving vacation, no class
@@ -58,6 +58,7 @@ Readings/Videos/Media:
 * 0musicPlaylist: [0music](https://www.youtube.com/watch?v=SxvV5zn7e9s)
 * NYTArts17Nov10: [Digital Keys for Unlocking the Humanities’ Riches](http://www.nytimes.com/2010/11/17/arts/17digital.html), New York Times, Nov 17th, 2010
 * MichelAidenTEDJul2011: [What we learned from 5 million books](https://www.ted.com/talks/what_we_learned_from_5_million_books?language=en#t-512521), TEDxBoston 2011
+* GenNext: [Gen Next at York College](http://www.ycp.edu/academics/gen-next/)
 
 <!--
 Sep 1  |
