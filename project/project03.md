@@ -13,7 +13,7 @@ about your Ngram experiment.  The document should be titled **Project 2 Document
 and should be in a folder called **Project 2** within your shared
 Google drive folder.
 
-A draft is due Friday, Nov 13th.  The final version is due Friday, Nov 20th.
+A draft is due Friday, Nov 13th.  The final version is due Tuesday, Nov 24th.
 
 # Learning goals
 
