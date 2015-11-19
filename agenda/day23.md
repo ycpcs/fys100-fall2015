@@ -5,7 +5,7 @@ title: "Day 23 Agenda"
 
 # Agenda
 
-Today is humanities presentations, for both [Unit Project 3](../projects/project03.html) and [Lab 13](../labs/lab13.html).
+Today is humanities presentations, for both [Unit Project 3](../project/project03.html) and [Lab 13](../labs/lab13.html).
 
 ## Get Ready
 
