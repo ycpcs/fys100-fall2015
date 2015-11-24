@@ -39,7 +39,7 @@ When you run the program, it will display an animation showing the progress of t
 
 > <a href="img/outbreak.png"><img style="width: 303px;" alt="Outbreak screenshot" src="img/outbreak.png"></a>
 
-Black dots are healthy individuals, red dots are sick individuals.  The pink circles around sick individuals represent the radius in which disease transmission can occur.
+Black dots are healthy individuals, red dots are sick individuals.  The pink circles around sick individuals represent the radius in which disease transmission can occur.  The overall percentage of sick individuals is also displayed.
 
 At the top of the program, you will notice definitions of the following simulation parameters:
 
@@ -52,7 +52,7 @@ At the top of the program, you will notice definitions of the following simulati
 > `NUM_MOVES` | How many randomly-generated moves each individual will consider per time step
 > `INIT_SICK` | Probability that an individual is sick initially
 > `RECOVERY` | Probability per time step that a sick individual will spontaneously recover
-> `SPONTANEOUS_SICKNESS` | Probability per time step that a healthy individual will spontaneously become sick
+> `SPONTANEOUS_INFECT` | Probability per time step that a healthy individual will spontaneously become sick
 > `INFECT_RADIUS` | Radius surrounding a sick individual where transmission to a healthy individal may occur
 > `INFECT` | Probability per time step of a healthy individual being infected by a sick individual that is close proximity
 
