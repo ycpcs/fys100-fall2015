@@ -39,23 +39,33 @@ When you run the program, it will display an animation showing the progress of t
 
 > <a href="img/outbreak.png"><img style="width: 303px;" alt="Outbreak screenshot" src="img/outbreak.png"></a>
 
-Black dots are healthy individuals, red dots are sick individuals.  The pink circles around sick individuals represent the radius in which disease transmission can occur.  The overall percentage of sick individuals is also displayed.
+Black dots are healthy individuals, red dots are sick individuals.  The pink circles around sick individuals represent the radius in which disease transmission can occur.  The overall percentage of sick individuals is also displayed.  You can pause and unpause the simulation by pressing the space bar.
 
 At the top of the program, you will notice definitions of the following simulation parameters:
 
-> Parameter name | Description
-> -------------- | -----------
-> `MAXCROWD` | Individuals will always try to stay at least this distance from other individuals
-> `PARANOIA` | If any sick individuals are this close (or closer), try to move away from them
-> `NORMAL_MOVE_DIST` | How far individuals move normally, when they are not trying to get away from sick individuals
-> `ESCAPE_MOVE_DIST` | How far individuals move when they are trying to escape from sick individuals
-> `NUM_MOVES` | How many randomly-generated moves each individual will consider per time step
-> `INIT_SICK` | Probability that an individual is sick initially
-> `RECOVERY` | Probability per time step that a sick individual will spontaneously recover
-> `SPONTANEOUS_INFECT` | Probability per time step that a healthy individual will spontaneously become sick
-> `INFECT_RADIUS` | Radius surrounding a sick individual where transmission to a healthy individal may occur
-> `INFECT` | Probability per time step of a healthy individual being infected by a sick individual that is close proximity
+> Parameter name | Description | Default value
+> :------------: | ----------- | ------------:
+> `MAXCROWD` | Individuals will always try to stay at least this distance from other individuals | 2.0
+> `PARANOIA` | If any sick individuals are this close (or closer), try to move away from them | 160.0
+> `NORMAL_MOVE_DIST` | How far individuals move normally, when they are not trying to get away from sick individuals | 3.0
+> `ESCAPE_MOVE_DIST` | How far individuals move when they are trying to escape from sick individuals | 6.0
+> `NUM_MOVES` | How many randomly-generated moves each individual will consider per time step | 10
+> `INIT_SICK` | Probability that an individual is sick initially | 0.005
+> `RECOVERY` | Probability per time step that a sick individual will spontaneously recover | 0.1
+> `SPONTANEOUS_INFECT` | Probability per time step that a healthy individual will spontaneously become sick | 0.001
+> `INFECT_RADIUS` | Radius surrounding a sick individual where transmission to a healthy individal may occur (this should not be greater than `PARANOIA`) | 20.0
+> `INFECT` | Probability per time step of a healthy individual being infected by a sick individual that is close proximity | 0.05
+
+By changing these parameters, you can study disease occurrence and transmission within the population.
 
 ## Experiments
 
-More stuff.
+Here are some experiments to try.  Write up the results of each experiment in a document in your shared Google Drive folder called **Outbreak Experiments**.  For each experiment, in addition to recording the results of the experiment, try to explain (in words) *why* you think the phenomenon you observed occurred.
+
+1. When you start the simulation using the original values of the simulation parameters and let it run for a while, does the percentage of sick individuals stabilize (to a reasonable degree)?  If so, what is the (rough) percentage of sick individuals in the steady state?  If not, what do you think causes the instability?
+2. What happens when you increase or decrease the `INFECT_RADIUS` parameter?  Try several values, and describe what happens for each value.  (Leave the other parameters at there original default values.)
+3. What happens when you increase or decrease the `PARANOIA` parameter?  Try several values, and describe what happens for each value.  (Leave the other parameters at there original default values.)
+4. What happens when you increase or decrease the `INFECT` parameter?  Try several values, and describe what happens for each value.  (Leave the other parameters at there original default values.)
+5. What happens when you increase or decrease the `RECOVERY` parameter?  Try several values, and describe what happens for each value.  (Leave the other parameters at there original default values.)
+
+If you have more time after doing these experiments, try modifying multiple parameters.  See if you can find some combinations of parameters that cause interesting phenemona to occur.  Record the parameter combinations and a description of what happened.
