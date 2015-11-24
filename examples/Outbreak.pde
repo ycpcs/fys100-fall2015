@@ -47,6 +47,8 @@ final float INFECT = 0.05;
 // Implementation
 /////////////////////////////////////////////////////////////////////////////
 
+boolean paused = false;
+
 // Represents a person
 class Person {
   float x, y; // location
@@ -191,10 +193,19 @@ void setup() {
   //noLoop();
 }
 
+void keyPressed() {
+  if (key == ' ') {
+    paused = !paused;
+  }
+}
+
 void draw() {
-  simulate();
   background(225);
   strokeWeight(0);
+
+  if (!paused) {
+    simulate();
+  }
   
   // Print persons (using color to represent healthy/sick)
   for (int i = 0; i < NUM_PERSONS; i++) {
@@ -219,6 +230,10 @@ void draw() {
   textFont(myFont);
   fill(64, 64, 150, 128);
   text("Sick: " + String.format("%.1f%%", ((float)stats[0]/persons.length)*100.0f), 350, 520);
+  
+  if (paused) {
+    text("Paused", 350, 560);
+  }
 }
 
 int[] computeStats() {
