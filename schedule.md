@@ -39,7 +39,7 @@ Nov 10 | Humanities: Mapping literature and history | [Lab 13](labs/lab13.html) 
 Nov 12 | Humanities: Discussion day | Discussion | [Day 21](agenda/day21.html)
 Nov 17 | The YCP General Education Curriculum | Discussion | [Day 22](agenda/day22.html) | [GenNext](http://www.ycp.edu/academics/gen-next/)
 Nov 19 | Humanities: Presentations | Presentations | [Day 23](agenda/day23.html)
-Nov 24 | Science: Modeling and simulation | [Lab 14](labs/lab14.html)
+Nov 24 | Science: Modeling and simulation | [Lab 14](labs/lab14.html) | [Day 24](agenda/day24.html)
 Nov 26 | Thanksgiving vacation, no class
 Dec 1 | Science: Measuring the physical world | [Lab 15](labs/lab15.html)
 Dec 3 | Science: Discussion day | Discussion
