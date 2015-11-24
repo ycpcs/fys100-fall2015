@@ -68,4 +68,6 @@ Here are some experiments to try.  Write up the results of each experiment in a 
 4. What happens when you increase or decrease the `INFECT` parameter?  Try several values, and describe what happens for each value.  (Leave the other parameters at there original default values.)
 5. What happens when you increase or decrease the `RECOVERY` parameter?  Try several values, and describe what happens for each value.  (Leave the other parameters at there original default values.)
 
-If you have more time after doing these experiments, try modifying multiple parameters.  See if you can find some combinations of parameters that cause interesting phenemona to occur.  Record the parameter combinations and a description of what happened.
+After doing these experiments, think about how the simulation works, and answer the following question: Do you think the simulation is realistic?  Also, state one or more ways that the simulation could be made more realistic.
+
+Finally, if you still have some time, try modifying multiple parameters at the same time.  See if you can find some combinations of parameters that cause interesting phenemona to occur.  Record the parameter combinations and a description of what happened.
