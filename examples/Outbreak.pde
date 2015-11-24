@@ -35,7 +35,7 @@ final float INIT_SICK = 0.005;
 final float RECOVERY = 0.1;
 
 // Probability that a healthy person becomes sick spontaneously
-final float SPONTANEOUS_SICKNESS = 0.001;
+final float SPONTANEOUS_INFECT = 0.001;
 
 // Radius within which a sick person could infect a healthy person
 final float INFECT_RADIUS = 20.0;
@@ -283,7 +283,7 @@ void simulatePerson(int i) {
   } else {
     // Check for spontaneous sickness
     // or infection spread from a sick person
-    if (random(1) < SPONTANEOUS_SICKNESS) {
+    if (random(1) < SPONTANEOUS_INFECT) {
       persons[i].sick = true;
     } else if (pred.getMinDist() < INFECT_RADIUS && random(1) < INFECT) {
       persons[i].sick = true;
