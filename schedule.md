@@ -41,10 +41,10 @@ Nov 17 | The YCP General Education Curriculum | Discussion | [Day 22](agenda/day
 Nov 19 | Humanities: Presentations | Presentations | [Day 23](agenda/day23.html)
 Nov 24 | Science: Modeling and simulation | [Lab 14](labs/lab14.html) | [Day 24](agenda/day24.html)
 Nov 26 | Thanksgiving vacation, no class
-Dec 1 | Science: Measuring the physical world | [Lab 15](labs/lab15.html)
-Dec 3 | Science: Discussion day | Discussion
-Dec 8 | Science: Presentations | Presentations
-Dec 10 | Society: TBD
+Dec 1 | Science: Measuring the physical world | [Lab 15](labs/lab15.html) | [Day 25](agenda/day25.html)
+Dec 3 | Science: Measuring the physical world (continued) | [Lab 15](labs/lab15.html) | [Day 26](agenda/day26.html)
+Dec 8 | Science: Discussion day | Discussion | [Day 27](agenda/day27.html) | [MakerMovement](http://www.mitpressjournals.org/doi/pdf/10.1162/INOV_a_00135), [DIYRevolution](http://www.csmonitor.com/Technology/2014/0706/The-maker-movement-creates-D.I.Y.-revolution), [MakingIt](http://www.newyorker.com/magazine/2014/01/13/making-it-2)
+Dec 10 | Science: Presentations | Presentations
 Dec 15 | Society: TBD
 
 Readings/Videos/Media:
@@ -59,38 +59,9 @@ Readings/Videos/Media:
 * NYTArts17Nov10: [Digital Keys for Unlocking the Humanities’ Riches](http://www.nytimes.com/2010/11/17/arts/17digital.html), New York Times, Nov 17th, 2010
 * MichelAidenTEDJul2011: [What we learned from 5 million books](https://www.ted.com/talks/what_we_learned_from_5_million_books?language=en#t-512521), TEDxBoston 2011
 * GenNext: [Gen Next at York College](http://www.ycp.edu/academics/gen-next/)
-
-<!--
-Sep 1  |
-Sep 6 |
-Sep 8 |
-Sep 15 |
-Sep 17 |
-Sep 22 |
-Sep 24 |
-Sep 29 |
-Oct 1 |
-Oct 6 |
-Oct 8 |
-Oct 13 |
-Oct 15 |
-Oct 20 | *No class* &mdash; fall break
-Oct 22 |
-Oct 27 |
-Oct 29 |
-Nov 3 |
-Nov 5 |
-Nov 10 |
-Nov 12 |
-Nov 17 |
-Nov 19 |
-Nov 24 |
-Nov 26 | *No class* &mdash; Thanksgiving break
-Dec 1 |
-Dec 3 |
-Dec 8 |
-Dec 10 |
--->
+* MakerMovement: [The Maker Movement](http://www.mitpressjournals.org/doi/pdf/10.1162/INOV_a_00135), Dale Dougherty, Innovations, Volume 7, Number 3, Summer 2012
+* DIYRevolution: [The 'maker movement' creates D.I.Y. revolution](http://www.csmonitor.com/Technology/2014/0706/The-maker-movement-creates-D.I.Y.-revolution), Noelle Swan, The Christian Science Monitor, July 6, 2014
+* MakingIt: [Making It: Pick up a spot welder and join the revolution](http://www.newyorker.com/magazine/2014/01/13/making-it-2), Evgeny Morozov, The New Yorker, January 13th, 2014
 
 <!-- vim:set wrap: ­-->
 <!-- vim:set linebreak: -->
