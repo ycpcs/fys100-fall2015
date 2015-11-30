@@ -45,7 +45,7 @@ The hardware kit contains:
 
 Here what the kit looks like (click for full size):
 
-> Yeah
+> <a href="img/kit.jpg"><img style="width: 450px;" alt="RedBoard kit" src="img/kit.jpg"></a>
 
 You should carefully remove the components from the container.  Be careful to keep the wires connecting the RedBoard and the solderless breadboard intact.
 
@@ -57,7 +57,7 @@ You will need to connect the LCD to the other components as follows:
 
 When connected, the entire setup should look like this (click for full size):
 
-> Uh-huh
+> <a href="img/components.jpg"><img style="width: 450px;" alt="RedBoard kit assembled" src="img/components.jpg"></a>
 
 At this point, you can use the USB Mini-B cable to connect the RedBoard to the PC you are using.  Some LEDs should light up, and once the embedded program is running you should see the messages `red`, `green`, and `blue` on the LCD.
 
