@@ -59,7 +59,7 @@ When connected, the entire setup should look like this (click for full size):
 
 > <a href="img/components.jpg"><img style="width: 450px;" alt="RedBoard kit assembled" src="img/components.jpg"></a>
 
-At this point, you can use the USB Mini-B cable to connect the RedBoard to the PC you are using.  Some LEDs should light up, and once the embedded program is running you should see the messages `red`, `green`, and `blue` on the LCD.
+At this point, you can use the USB Mini-B cable to connect the RedBoard to the PC you are using.  Some LEDs should light up, and once the embedded program is running you should see the message `red`, `green`, or `blue` on the LCD.
 
 ## Software setup
 
@@ -73,15 +73,21 @@ Start by downloading the following zipfile:
 
 Right-click on the zipfile and choose **Extract all**.  Choose **H:\\** as the directory in which to extract the contents.  Make sure you see a dialog that looks like this:
 
-> The dialog
+> ![Extract zip file dialog](img/extractdialog.png)
 
 Next, start the **Arduino** program from the Windows start menu (**Start &rarr; Programs &rarr; Arduino**).  You should see a window that looks a lot like the Processing main window.  Choose **File &rarr; Preferences**.  In the preferences dialog, choose **H:\\arduino** as your sketchbook location.  Close the Arduino program and restart it.
 
 When the Arduino program restarts, open **H:\\arduino\\RGBSensor\\RGBSensor.ino**.  You should now see the code for the **RGBSensor** program: this is the program that is running on the RedBoard.
 
-Running the program.
+Try compiling the program by clicking the Verify button.  It looks like this:
 
-Modifying the program.
+> ![Verify button](img/verify.png)
+
+If the program compiles successfully, you are ready to try uploading it into the board.  First, you will need to set the port that the host PC uses to communicate with the RedBoard.  Choose **Tools &rarr; Serial Port &rarr; COM3**.  Next, click the Upload button, which looks like this:
+
+> ![Upload button](img/upload.png)
+
+If everything was successful, your program will be running on the target hardware.  Congratulations.
 
 ## Things to try
 
