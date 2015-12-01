@@ -12,13 +12,13 @@ title: "Lab 15: Light Sensor"
 
 In this lab we will experiment with writing programs for the Arduino, an embedded controller.
 
-First, read the *Embedded controllers* and *Arduino* sections.  Then read the *Hardware setup* and *Software setup* sections to find out how to get started with the Arduino development software and the [SparkFun RedBoard](https://www.sparkfun.com/products/12757) hardware.  Next, read the *Arduino programs* section to learn about how Arduino programs work (they are very similar to Processing programs.)  Finally, read *Color sensor* for an explanation of the task you will work on.
+First, read the *Embedded controllers* and *Arduino* sections.  Then read the *Hardware setup* and *Software setup* sections to find out how to get started with the Arduino development software and the [SparkFun RedBoard](https://www.sparkfun.com/products/12757) hardware.  Next, read the *Arduino programs* section to learn about how Arduino programs work (they are very similar to Processing programs.)  Finally, read the *Quick experiments* and *Color sensor* sections for an explanation of the tasks you will work on.
 
 ## Embedded controllers
 
 An *embedded controller* is a computer that is meant to be "embedded" in a larger device or system.  Unlike "standalone" computing devices such as PCs, laptops, tablets, and smartphones, where the software exists to serve the needs of a human user, software for embedded systems operates automonously.
 
-There are a *huge* number of applications for embedded controllers.  In fact, you probably use devices with embedded controllers every day.
+There are a *huge* number of possible applications for embedded controllers.  In fact, you almost certainly use devices with embedded controllers every day.
 
 A typical embedded controller uses *sensors* to monitor the physical environment and *actuators* to control the physical environment.  For example, an embedded controller in a coffeemaker could use a temperature sensor to keep track of the current water temperature, and activate/deactivate a heating element to keep the temperature at an optimum temperature for brewing coffee.
 
@@ -128,6 +128,8 @@ Start by commenting out the code in the `loop` function by adding a line with th
 **First experiment**.  Add the following code to the `loop` function:
 
 {% highlight c++ %}
+static int count = 0;
+
 digitalWrite(7, LOW);
 digitalWrite(6, LOW);
 digitalWrite(5, LOW);
@@ -148,6 +150,51 @@ delay(500);
 {% endhighlight %}
 
 What do you think this code will do?  Try running it.  Then, try changing the code to create different effects with the LEDs.
+
+**Second experiment**.  Comment out the code from the first experiment.  Then, add the following code:
+
+{% highlight c++ %}
+static int count = 0;
+
+clearLCD();
+for (int i = 0; i < count; i++) {
+  lcd.write(" ");
+}
+lcd.write("X");
+
+count++;
+if (count > 31) {
+  count = 0;
+}
+
+delay(500);
+{% endhighlight %}
+
+What do you think this code will do?  Try running it.  Then, try changing the code to create different effects with the LCD.
+
+**Third experiment**.  Comment out the code from the second experiment.  Then, add the following code:
+
+{% highlight c++ %}
+uint16_t r, g, b, c;
+  
+tcs.getRawData(&r, &g, &b, &c);
+
+clearLCD();
+lcd.print("R:");
+lcd.print(r, DEC);
+lcd.write(254);
+lcd.write(136);
+lcd.print("G:");
+lcd.print(g, DEC);
+lcd.write(254);
+lcd.write(192);
+lcd.print("B:");
+lcd.print(b, DEC);
+
+delay(250);
+{% endhighlight %}
+
+What do you think this code will do?  Try running it.  *Hint*: try holding different color objects in front of the RGB color sensor.  How do the values shown on the LCD change?
 
 ## Color sensor
 
