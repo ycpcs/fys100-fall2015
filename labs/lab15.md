@@ -119,6 +119,8 @@ digitalWrite(7, HIGH);
 
 The `digitalWrite` function sets the voltage on a digital output pin to a low or high voltage.  In the circuit used by our kits, a high voltage will turn on the LED connected to the specified output pin, and a low voltage will turn off the LED.
 
+*TODO*: writing data to the LCD, reading data from the RGB color sensor.
+
 ## Quick experiments
 
 Here are a few quick experiments you can do to learn about how to use and control the devices connected to the RedBoard.
