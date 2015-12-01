@@ -119,7 +119,17 @@ digitalWrite(7, HIGH);
 
 The `digitalWrite` function sets the voltage on a digital output pin to a low or high voltage.  In the circuit used by our kits, a high voltage will turn on the LED connected to the specified output pin, and a low voltage will turn off the LED.
 
-*TODO*: writing data to the LCD, reading data from the RGB color sensor.
+To write data to the LCD, use the `lcd.print` and `lcd.write` functions.  The `lcd.print` function sends human readable text to the LCD.  The `lcd.write` sends control codes to the LCD (for example, to clear the screen or move the text cursor.)
+
+Reading data from the RGB color sensor can be accomplished using the `tcs` variable.  For example:
+
+{% highlight c++ %}
+uint16_t r, g, b, c;
+    
+tcs.getRawData(&r, &g, &b, &c);
+{% endhighlight %}
+
+This code reads the current red, green, and blue intensity values into the variables `r`, `g`, and `b`.
 
 ## Quick experiments
 
