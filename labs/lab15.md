@@ -20,7 +20,7 @@ An *embedded controller* is a computer that is meant to be "embedded" in a large
 
 There are a *huge* number of applications for embedded controllers.  In fact, you probably use devices with embedded controllers every day.
 
-A typical embedded controller uses *sensors* to monitor the physical environment and *actuators* to control the physical environment.  For example, an embedded controller in a coffeemaker could use a temperature sensor to keep track of the current water temperature, and activate/deactivate a heating element to keep the temperature at an optmimum temperature for brewing coffee.
+A typical embedded controller uses *sensors* to monitor the physical environment and *actuators* to control the physical environment.  For example, an embedded controller in a coffeemaker could use a temperature sensor to keep track of the current water temperature, and activate/deactivate a heating element to keep the temperature at an optimum temperature for brewing coffee.
 
 Most embedded controllers are not as powerful as a traditional computer.  This is because for many applications, the controller has a relatively simple task to perform, and a small amount of processing power is sufficient.
 
@@ -118,6 +118,36 @@ digitalWrite(7, HIGH);
 {% endhighlight %}
 
 The `digitalWrite` function sets the voltage on a digital output pin to a low or high voltage.  In the circuit used by our kits, a high voltage will turn on the LED connected to the specified output pin, and a low voltage will turn off the LED.
+
+## Quick experiments
+
+Here are a few quick experiments you can do to learn about how to use and control the devices connected to the RedBoard.
+
+Start by commenting out the code in the `loop` function by adding a line with the text "`/*`" at the beginning of the function (just after the opening "`{`"), and a line with the text "`*/`" at the end of the function (just before the closing "`}`".)
+
+**First experiment**.  Add the following code to the `loop` function:
+
+{% highlight c++ %}
+digitalWrite(7, LOW);
+digitalWrite(6, LOW);
+digitalWrite(5, LOW);
+if (count == 0) { 
+  digitalWrite(7, HIGH);
+} else if (count == 1) {
+  digitalWrite(6, HIGH);
+} else {
+  digitalWrite(5, HIGH);
+}
+
+count++;
+if (count > 2) {
+  count = 0;
+}
+
+delay(500);
+{% endhighlight %}
+
+What do you think this code will do?  Try running it.  Then, try changing the code to create different effects with the LEDs.
 
 ## Color sensor
 
