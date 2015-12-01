@@ -12,7 +12,7 @@ title: "Lab 15: Light Sensor"
 
 In this lab we will experiment with writing programs for the Arduino, an embedded controller.
 
-First, read the *Embedded controllers* and *Arduino* sections.  Then read the *Hardware setup* and *Software setup* sections to find out how to get started with the Arduino development software and the [SparkFun RedBoard](https://www.sparkfun.com/products/12757) hardware.  Finally, read *Color sensor* for an explanation of the task you will work on.
+First, read the *Embedded controllers* and *Arduino* sections.  Then read the *Hardware setup* and *Software setup* sections to find out how to get started with the Arduino development software and the [SparkFun RedBoard](https://www.sparkfun.com/products/12757) hardware.  Next, read the *Arduino programs* section to learn about how Arduino programs work (they are very similar to Processing programs.)  Finally, read *Color sensor* for an explanation of the task you will work on.
 
 ## Embedded controllers
 
@@ -71,7 +71,7 @@ Start by downloading the following zipfile:
 
 > [arduino.zip](../media/arduino.zip)
 
-Right-click on the zipfile and choose **Extract all**.  Choose **H:\\** as the directory in which to extract the contents.  Make sure you see a dialog that looks like this:
+Right-click on the zipfile and choose **Extract all...**.  Choose **H:\\** as the destination directory.  Make sure you see a dialog that looks like this:
 
 > ![Extract zip file dialog](img/extractdialog.png)
 
@@ -89,6 +89,44 @@ If the program compiles successfully, you are ready to try uploading it into the
 
 If everything was successful, your program will be running on the target hardware.  Congratulations.
 
-## Things to try
+## Arduino programs
 
-Things to try, what results to write down.
+Arduino programs are very similar to Processing programs.  The `setup` function specifies code that executes once, when the program running on the target device starts.  In an Arduino program, `setup` typically initializes hardware devices.  The `loop` function is analogous to the Processing `draw` function: it executes repeatedly.  It typically reads values from sensors, interprets the data received, and uses the received data to control actuators or display devices.
+
+The hardware circuit in our kits has one sensor and four display devices.  The sensor is an RGB color sensor, which determines the color of the light striking its sensing element.  The display devices are three LEDs and an LCD display.
+
+To control the LEDs, the program controls the output voltages of several "output pins".  You will notice the following code in the `setup` function:
+
+{% highlight c++ %}
+pinMode(7, OUTPUT); // red LED
+pinMode(6, OUTPUT); // green LED
+pinMode(5, OUTPUT); // blue LED
+{% endhighlight %}
+
+This code sets digital I/O pins 5, 6, and 7 to output mode, where the program will control a voltage on each respective pin.  These pins control the red, green, and blue LEDs.
+
+In the `setup` function you will notice code such as
+
+{% highlight c++ %}
+digitalWrite(7, LOW);
+{% endhighlight %}
+
+and
+
+{% highlight c++ %}
+digitalWrite(7, HIGH);
+{% endhighlight %}
+
+The `digitalWrite` function sets the voltage on a digital output pin to a low or high voltage.  In the circuit used by our kits, a high voltage will turn on the LED connected to the specified output pin, and a low voltage will turn off the LED.
+
+## Color sensor
+
+The goal of the program is identify colors.
+
+The RGB Color sensor (the small circuit board with the bright white LED in the lower-left corner of the breadboard) detects the color of the light striking its light-sensing element.  Specifically, it detects colors by determining the relative intensity of the red, green, and blue components of the light striking the element.  As you may recall from [Lab 1](lab01.html), any visible color can be specified as a combination of red, green, and blue intensities.
+
+TODO: more explanation.
+
+<!-- vim:set wrap: ­-->
+<!-- vim:set linebreak: -->
+<!-- vim:set nolist: -->
