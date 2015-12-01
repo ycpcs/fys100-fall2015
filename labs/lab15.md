@@ -14,6 +14,8 @@ In this lab we will experiment with writing programs for the Arduino, an embedde
 
 First, read the *Embedded controllers* and *Arduino* sections.  Then read the *Hardware setup* and *Software setup* sections to find out how to get started with the Arduino development software and the [SparkFun RedBoard](https://www.sparkfun.com/products/12757) hardware.  Next, read the *Arduino programs* section to learn about how Arduino programs work (they are very similar to Processing programs.)  Finally, read the *Quick experiments* and *Color sensor* sections for an explanation of the tasks you will work on.
 
+As you work on this activity, record a brief log of your work in a document called **Color sensor log** in your shared Google Drive folder. (Note that even though you will be working in a small group, you should create your own document to record your work.)
+
 ## Embedded controllers
 
 An *embedded controller* is a computer that is meant to be "embedded" in a larger device or system.  Unlike "standalone" computing devices such as PCs, laptops, tablets, and smartphones, where the software exists to serve the needs of a human user, software for embedded systems operates automonously.
@@ -210,11 +212,32 @@ What do you think this code will do?  Try running it.  *Hint*: try holding diffe
 
 ## Color sensor
 
-The goal of the program is identify colors.
+Try to write a program that allows the embedded controller to accurately classify colors.
 
 The RGB Color sensor (the small circuit board with the bright white LED in the lower-left corner of the breadboard) detects the color of the light striking its light-sensing element.  Specifically, it detects colors by determining the relative intensity of the red, green, and blue components of the light striking the element.  As you may recall from [Lab 1](lab01.html), any visible color can be specified as a combination of red, green, and blue intensities.
 
-TODO: more explanation.
+The initial version of the [RGBSensor](https://github.com/ycpcs/fys100-fall2015/blob/gh-pages/examples/RGBSensor.ino) program uses the following code to classify the color of the light striking the color sensor:
+
+{% highlight c++ %}
+if (r > g && r > b) {
+  digitalWrite(7, HIGH);
+  lcd.write("red");
+} else if (g > r && g > b) {
+  digitalWrite(6, HIGH);
+  lcd.write("green");
+} else {
+  digitalWrite(5, HIGH);
+  lcd.write("blue");
+}
+{% endhighlight %}
+
+This is a very simple classifier: it compares the relative intensities of red, green, and blue (stored in the `r`, `g`, and `b` variables) and assumes that the light color is red, green, or blue depending on which is the greatest.  However, it will not be accurate for colors not dominated by a single color component.  For example, purple will have strong red and blue components.
+
+Can you think of, and program, a classifier that can accurately classify a wider range of colors?
+
+*Suggestion*: use the code from the **Third experiment** (in the *Quick experiments* section) to display the received red, green, and blue component values.  Test different colored objects, and write down the approximate red/green/blue values.  Think about how you can generalize the classifier to accurately classify more colors (including "secondary" colors.)
+
+In your **Color sensor log** document, describe the approach you and your group came up with for detecting colors.
 
 <!-- vim:set wrap: ­-->
 <!-- vim:set linebreak: -->
