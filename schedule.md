@@ -44,7 +44,7 @@ Nov 26 | Thanksgiving vacation, no class
 Dec 1 | Science: Measuring the physical world | [Lab 15](labs/lab15.html) | [Day 25](agenda/day25.html)
 Dec 3 | Science: Measuring the physical world (continued) | [Lab 15](labs/lab15.html) | [Day 26](agenda/day26.html)
 Dec 8 | Science: Discussion day | Discussion | [Day 27](agenda/day27.html) | [MakerMovement](http://www.mitpressjournals.org/doi/pdf/10.1162/INOV_a_00135), [DIYRevolution](http://www.csmonitor.com/Technology/2014/0706/The-maker-movement-creates-D.I.Y.-revolution), [MakingIt](http://www.newyorker.com/magazine/2014/01/13/making-it-2)
-Dec 10 | Science: Presentations | Presentations
+Dec 10 | Science: Presentations | Presentations | [Day 28](agenda/day28.html)
 Dec 15 | Society: TBD
 
 Readings/Videos/Media:
