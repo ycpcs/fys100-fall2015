@@ -22,7 +22,7 @@ Welcome to the FYS 100.139 home page!  All of the information about the course w
 
 ## News
 
-* **Dec 10** &mdash; [Unit Project 4](projects/project04.html) has been posted.  It is due by the end of the day on **Tuesday, Dec 15th**.
+* **Dec 10** &mdash; [Unit Project 4](project/project04.html) has been posted.  It is due by the end of the day on **Tuesday, Dec 15th**.
 * **Nov 19** &mdash; The due date for the final version of the relection for [Unit Project 3](project/project03.html) has been extended to **Tuesday, Nov 24th**.
 * **Nov 5** &mdash; Request: If you used samples in your composition for [Unit Project 2](project/project02.html), please upload them to your **Project 2** folder in your shared Google Drive folder.
 * **Nov 5** &mdash; The due date for the final version of the reflection for [Unit Project 2](project/project02.html) has been extended to **Monday, Nov 9th**.
