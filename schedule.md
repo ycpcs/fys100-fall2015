@@ -45,7 +45,7 @@ Dec 1 | Science: Measuring the physical world | [Lab 15](labs/lab15.html) | [Day
 Dec 3 | Science: Measuring the physical world (continued) | [Lab 15](labs/lab15.html) | [Day 26](agenda/day26.html)
 Dec 8 | Science: Discussion day | Discussion | [Day 27](agenda/day27.html) | [MakerMovement](http://www.mitpressjournals.org/doi/pdf/10.1162/INOV_a_00135), [DIYRevolution](http://www.csmonitor.com/Technology/2014/0706/The-maker-movement-creates-D.I.Y.-revolution), [MakingIt](http://www.newyorker.com/magazine/2014/01/13/making-it-2)
 Dec 10 | Science: Presentations | Presentations | [Day 28](agenda/day28.html)
-Dec 15 | Society: TBD
+Dec 15 | Society: Discussion day | Discussion | [Day 29](agenda/day29.html) | [FourEthicalIssues](http://ycp.summon.serialssolutions.com/#!/search?bookMark=ePnHCXMwXV3NCsIwDC7iwSk-gZeCN6GHpl27HUUUH0DPpT_rQYYK7v0x6TYEzy0hlDZfkn5J1mzriZv9HEoNV1qwCqQB0eJVWlK-wxr06Bq1ms2lxICiYocLHh0vHG_f83HyHH9ljpL4VJhDivIjVcLfL-fb6SqmaQHiQV3PhAHwOZkArY6IoqHRKsUaOgoA25DAtoi1AfHc1CoGmWNuYl1n8FpB1l2nNmw3yp1tskt97yTZdksztfZ_qz5QMiIOH1dgkn68frsKt9G9x44RDj1tIlw7wOdilfoCnLJSKQ)
 
 Readings/Videos/Media:
 
@@ -62,6 +62,7 @@ Readings/Videos/Media:
 * MakerMovement: [The Maker Movement](http://www.mitpressjournals.org/doi/pdf/10.1162/INOV_a_00135), Dale Dougherty, Innovations, Volume 7, Number 3, Summer 2012
 * DIYRevolution: [The 'maker movement' creates D.I.Y. revolution](http://www.csmonitor.com/Technology/2014/0706/The-maker-movement-creates-D.I.Y.-revolution), Noelle Swan, The Christian Science Monitor, July 6, 2014
 * MakingIt: [Making It: Pick up a spot welder and join the revolution](http://www.newyorker.com/magazine/2014/01/13/making-it-2), Evgeny Morozov, The New Yorker, January 13th, 2014
+* FourEthicalIssues: [Four Ethical Issues of the Information Age](http://ycp.summon.serialssolutions.com/#!/search?bookMark=ePnHCXMwXV3NCsIwDC7iwSk-gZeCN6GHpl27HUUUH0DPpT_rQYYK7v0x6TYEzy0hlDZfkn5J1mzriZv9HEoNV1qwCqQB0eJVWlK-wxr06Bq1ms2lxICiYocLHh0vHG_f83HyHH9ljpL4VJhDivIjVcLfL-fb6SqmaQHiQV3PhAHwOZkArY6IoqHRKsUaOgoA25DAtoi1AfHc1CoGmWNuYl1n8FpB1l2nNmw3yp1tskt97yTZdksztfZ_qz5QMiIOH1dgkn68frsKt9G9x44RDj1tIlw7wOdilfoCnLJSKQ), Richard O. Mason, MIS Quarterly, Volume 10, Number 1, 1986. (You will need to be connected to the YCP network to access this article.)
 
 <!-- vim:set wrap: ­-->
 <!-- vim:set linebreak: -->
